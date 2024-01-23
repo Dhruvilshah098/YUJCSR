@@ -1,0 +1,58 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Register - YUJCSR.Web.CSO</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" />
+	<link rel="stylesheet" href="~/css/User/Register.css"/>
+</head>
+<body>
+	<section class="wizard-section">
+		<div class="row no-gutters">
+			<div class="col-lg-6 col-md-6">
+				<div class="wizard-content-left d-flex justify-content-center align-items-center">
+					<h1>Sign up</h1>
+				</div>
+			</div>
+			<div class="col-lg-6 col-md-6">
+				<div class="form-wizard h-100 d-flex align-items-center">
+					<form action="" method="post" role="form" class="w-100">
+						@* <fieldset class="wizard-fieldset"> *@
+							<h5>Sign up</h5>
+							<div class="form-group">
+								<input type="text" class="form-control wizard-required" id="company">
+								<label for="company" class="wizard-form-text-label">Company name</label>
+								<div class="wizard-form-error"></div>
+							</div>
+							<div class="form-group">
+								<input type="email" class="form-control wizard-required" id="email">
+								<label for="email" class="wizard-form-text-label">Email*</label>
+								<div class="wizard-form-error"></div>
+							</div>
+							<div class="form-group">
+								<input type="text" class="form-control wizard-required" id="username">
+								<label for="username" class="wizard-form-text-label">User Name*</label>
+								<div class="wizard-form-error"></div>
+							</div>
+							<div class="form-group">
+								<input type="password" class="form-control wizard-required" id="pwd">
+								<label for="pwd" class="wizard-form-text-label">Password*</label>
+								<div class="wizard-form-error"></div>
+								<span class="wizard-password-eye"><i class="far fa-eye"></i></span>
+							</div>
+							<div class="form-group clearfix text-center">
+								@* <a href="javascript:;" class="form-wizard-next-btn">Sign up</a> *@
+							<a href="/User/Login" class="form-wizard-next-btn">Sign up</a>
+							</div>
+						@* </fieldset> *@
+					</form>
+				</div>
+			</div>
+		</div>
+	</section>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+	<script src="~/js/User/Register.js"></script>
+</body>
+</html>
