@@ -7,6 +7,10 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Content Remove="Views\Shared\_CRM-Layout.cshtml" />
+  </ItemGroup>
+
+  <ItemGroup>
     <None Remove="webpack.config.js" />
   </ItemGroup>
 
