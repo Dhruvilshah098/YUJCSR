@@ -1,6 +1,7 @@
 ﻿@model YUJCSR.Web.CSO.Models.CSOProfileModel
 @{
     var cso = new CSOProfileModel();
+    Layout = "_UserLayout";
 }
 <section class="wizard-section">
     <div class="row no-gutters">
@@ -37,7 +38,7 @@
                         <span class="wizard-password-eye"><i class="far fa-eye"></i></span>
                     </div>
                     <div class="form-group clearfix text-center">
-                        <input type="submit" value="Create" class="btn btn-primary" />
+                        <input type="submit" value="Create" class="form-wizard-next-btn" />
 
                     </div>
 
