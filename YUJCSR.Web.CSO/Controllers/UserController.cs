@@ -20,7 +20,21 @@ namespace YUJCSR.Web.CSO.Controllers
         {
             return View();
         }
-
+        [HttpPost]
+        public IActionResult Login(LoginModel model)
+        {
+            CSOManager manager = new CSOManager(_config);
+            var status = manager.LoginCheck(model);
+            if (status)
+            {
+                return RedirectToAction("Index", "Home");
+            }
+            else
+            {
+                ViewBag.message = "Invalid Credential";
+            }
+            return View();
+        }
         public IActionResult Register()
         {
             return View();
@@ -34,6 +48,7 @@ namespace YUJCSR.Web.CSO.Controllers
             if (status)
             {
                 ViewBag.message = "Success";
+               
             }
             else
             {

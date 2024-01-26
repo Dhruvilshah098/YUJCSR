@@ -1,4 +1,4 @@
-﻿@using YUJCSR.Web.CSO.Models
+﻿@model YUJCSR.Web.CSO.Models.LoginModel
 @{
     ViewData["Title"] = "Home Page";
     Layout = "_CRM-Layout";
@@ -18,7 +18,7 @@
 						 @* <fieldset class="wizard-fieldset"> *@
 							<h5 class="text-center">Login in to continue</h5>
 							<div class="form-group">
-								<input type="email" class="form-control wizard-required" id="email">
+								<input asp-for ="UserName" type="email" class="form-control wizard-required" id="email">
 								<label for="email" class="wizard-form-text-label">Email*</label>
 								<div class="wizard-form-error"></div>
 							</div>
@@ -28,7 +28,7 @@
 								<div class="wizard-form-error"></div>
 							</div> *@
 							<div class="form-group">
-								<input type="password" class="form-control wizard-required" id="pwd">
+								<input asp-for ="Password" type="password" class="form-control wizard-required" id="pwd">
 								<label for="pwd" class="wizard-form-text-label">Password*</label>
 								<div class="wizard-form-error"></div>
 								<span class="wizard-password-eye"><i class="far fa-eye"></i></span>
@@ -39,9 +39,15 @@
 								<div class="wizard-form-error"></div>
 							</div> *@
 							<div class="form-group clearfix  text-center">
-								@* <a href="javascript:;" class="form-wizard-next-btn">Login In</a> *@
-								<a href="/" class="form-wizard-next-btn">Login In</a>
+							
+								 <input type="submit" value="Login" class="form-wizard-next-btn" />
 							</div>
+
+							
+                    @if (!string.IsNullOrEmpty(ViewBag.message))
+                    {
+                        <p>@ViewBag.message</p>
+                    }
 						@* </fieldset> *@
 					</form>
 				</div>

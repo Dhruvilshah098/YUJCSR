@@ -46,5 +46,33 @@ namespace YUJCSR.Web.CSO.BusinessManager
                 throw;
             }
         }
+        public bool LoginCheck(LoginModel model)
+        {
+            try
+            {
+                using (var client = new HttpClient())
+                {
+                    
+                    client.BaseAddress = new Uri(_baseurl);
+                    client.DefaultRequestHeaders.Clear();
+                    client.DefaultRequestHeaders.Accept.Add(new MediaTypeWithQualityHeaderValue("application/json"));
+                    var postTask = client.PostAsJsonAsync<LoginModel>("cso/login", model);
+                    postTask.Wait();
+                    var Res = postTask.Result;
+                    if (Res.IsSuccessStatusCode)
+                    {
+                        return true;
+                    }
+
+
+                }
+                return false;
+            }
+            catch (Exception ex)
+            {
+
+                throw;
+            }
+        }
     }
 }
