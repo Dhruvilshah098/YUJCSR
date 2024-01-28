@@ -1,0 +1,1 @@
+﻿Figma file URL : https://www.figma.com/file/V0w2Mr3SW4Y29a9JQlzcP0/YUJCSR?type=design&node-id=81-2865&mode=design

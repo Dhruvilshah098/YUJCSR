@@ -1,0 +1,75 @@
+﻿/* Fonts */
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+
+@font-face {
+    font-family: Artegra Soft;
+    src: url('/Assets/Fonts/ArtegraSoft-Regular.ttf');
+    font-weight: 400;
+}
+
+/* Default CSS */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+    scroll-padding-top: 200px;
+}
+
+body {
+    font-weight: 400;
+    overflow-x: hidden;
+    position: relative;
+    font-size: 18px;
+    font-family: 'Poppins', sans-serif;
+    color: #000000; 
+}
+
+h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+    padding:0 ;
+    line-height: normal;
+}
+
+h1 {
+    font-size: 40px;
+}
+
+h2 {
+    font-size: 35px;
+    color: #0271BC;
+}
+
+h3 {
+    font-size: 24px;
+}
+
+h4 {
+    font-size: 18px;
+}
+
+h5 {
+    font-size: 14px;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.d-xs-none {
+    @media (max-width: 575px) {
+        display: none;
+    }
+}
+
+.d-xs-block {
+    @media (max-width: 575px) {
+        display: block;
+    }
+}

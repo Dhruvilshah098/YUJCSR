@@ -1,0 +1,371 @@
+﻿@using YUJCSR.Web.Portal.Models
+@{
+    ViewData["Title"] = "YUJCSR";
+    Layout = "_Layout";
+}
+
+@{
+    var projects = ViewBag.Projects;
+}
+
+<div class="home-page-content">
+    @* Banner Section *@
+
+    <div class="banner-section">
+        <div class="banner-title">
+            Facilitating <span>Connections Between CSOs & Companies</span> For Sustainable change
+        </div>
+
+        <div class="info-search-wrapper">
+            <div class="filter-wrapper">
+            </div>
+
+            <div class="filter-actions">
+            </div>
+        </div>
+    </div>
+
+    @* Number section *@
+
+    <div class="number-section">
+        <div class="row">
+            <div class="number-card col col-md-4 col-lg-2">
+                <div class="number">35+</div>
+                <div class="text">
+                    Projects Listed
+                </div>
+            </div>
+
+            <div class="number-card col col-md-4 col-lg-2">
+                <div class="number">1200cr+</div>
+                <div class="text">
+                    Total Value of CSR Programs
+                </div>
+            </div>
+
+            <div class="number-card col col-md-4 col-lg-2">
+                <div class="number">65+</div>
+                <div class="text">
+                    CSOs (Civil Society Organizations)
+                </div>
+            </div>
+
+            <div class="number-card col col-md-4 col-lg-2">
+                <div class="number">85+</div>
+                <div class="text">
+                    Cities Covered
+                </div>
+            </div>
+
+            <div class="number-card col col-md-4 col-lg-2">
+                <div class="number">600+</div>
+                <div class="text">
+                    District Covered
+                </div>
+            </div>
+
+            <div class="number-card col col-md-4 col-lg-2">
+                <div class="number">85+</div>
+                <div class="text">
+                    Volunteers Engaged
+                </div>
+            </div>
+        </div>
+    </div>
+
+    @* Who we are section *@
+
+    <div class="who-we-are-section">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-md-12 col-lg-7 ps-5">
+                    <h2>
+                        Who we are
+                    </h2>
+
+                    <h4>
+                        YujCSR is a startup that facilitates a platform for companies and Civil Society Organizations to
+                        effectively utilize CSR funds to achieve sustainable change by facilitating innovative projects
+                        with a holistic approach by involving stakeholders throughout. Through consultation & experts'
+                        advice, we co-create a project that could be a potential CSR-funded intervention and provide
+                        end-to-end coordination for curating these projects from conceptualization to execution with a
+                        focus on sustenance.
+                    </h4>
+                </div>
+                <div class="col-md-12 col-lg-5">
+                    @* <img src="./Assets/images/who-we-are.svg" alt="" /> *@
+                    <div class="who-we-are-img"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    @* Service section *@
+
+    <div class="service-section">
+        <div class="container">
+            <h2 class="text-center">
+                Our Services
+            </h2>
+
+            <h4 class="text-center">
+                We facilitate consultancy services to Companies and Civil Society Organizations (CSOs)
+            </h4>
+
+            <div class="row mt-5">
+                <div class="col-md-6">
+                    <div class="card">
+                        <div class="card-header">
+                            <h3 class="card-title">
+                                For Civil Society Organizations
+                            </h3>
+                            <h4 class="card-subtitle">
+                                (NGOs/Trusts/Societies/CSR Foundations/Individuals)
+                            </h4>
+                        </div>
+
+                        <div class="card-content">
+                            <h4 class="label">Project</h4>
+                            <h4 class="value">Project pitch development.​</h4>
+
+                            <h4 class="label">Expertise</h4>
+                            <h4 class="value">Aligning with the right specialists and providing technical assistance.​
+                            </h4>
+
+                            <h4 class="label">Coordination</h4>
+                            <h4 class="value">Funds coordination and multiple stakeholder coordination.</h4>
+
+                            <h4 class="label">​Review and Compliance</h4>
+                            <h4 class="value">Branding and documentation.</h4>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="card">
+                        <div class="card-header">
+                            <h3 class="card-title">
+                                For Companies
+                            </h3>
+                            @* <h4 class="card-subtitle">
+                            (NGOs/Trusts/Societies/CSR Foundations/Individuals)
+                            </h4> *@
+                        </div>
+
+                        <div class="card-content">
+                            <h4 class="label">Identification</h4>
+                            <h4 class="value">Identifying transformative and sustainable projects.​​</h4>
+
+                            <h4 class="label">Connections</h4>
+                            <h4 class="value">Connecting with the right implementation partners.​</h4>
+
+                            <h4 class="label">Projects</h4>
+                            <h4 class="value">Project development, assessment, coordination and monitoring.</h4>
+
+                            <h4 class="label">Review and Compliance</h4>
+                            <h4 class="value">Facilitating sustenance, branding and documentation.</h4>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    @* Projects Section *@
+
+    <div class="project-section">
+        <div class="container">
+            <div class="section-title-wrapper mb-5">
+                <h2>YUJ CSR's Innovative Projects (Self Created)</h2>
+            </div>
+
+            @* Cards *@
+            <div class="row justify-content-center">
+                @foreach (var data in @projects)
+                {
+                    <div class="col-sm-12 col-lg-4 custom-card-width">
+                        <div class="card card-vertical">
+                            <div class="card-image">
+                                <img src="./Assets/images/circle-of-love.png" alt="" />
+                            </div>
+                            <div class="card-details">
+                                <h3 class="card-title">
+                                    Circle of Love - Employee Volunteering
+                                    @data.Location
+                                </h3>
+
+                                <h5 class="caption">
+                                    Paramhansa Yogananda Public Charitable Trust
+                                </h5>
+                            </div>
+                        </div>
+                    </div>
+                }
+       @*          <div class="col-sm-12 col-lg-4 custom-card-width">
+                    <div class="card card-vertical">
+                        <div class="card-image">
+                            <img src="./Assets/images/circle-of-love.png" alt="" />
+                        </div>
+                        <div class="card-details">
+                            <h3 class="card-title">
+                                Circle of Love - Employee Volunteering
+                            </h3>
+
+                            <h5 class="caption">
+                                Paramhansa Yogananda Public Charitable Trust
+                            </h5>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-12 col-lg-4 custom-card-width">
+                    <div class="card card-vertical">
+                        <div class="card-image">
+                            <img src="./Assets/images/Code-For-Change.png" alt="" />
+                        </div>
+                        <div class="card-details">
+                            <h3 class="card-title">
+                                Code For Change - Robotics And Coding
+                            </h3>
+
+                            <h5 class="caption">
+                                By PURE
+                            </h5>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-12 col-lg-4 custom-card-width">
+                    <div class="card card-vertical">
+                        <div class="card-image">
+                            <img src="./Assets/images/Green-Sweep.png" alt="" />
+                        </div>
+                        <div class="card-details">
+                            <h3 class="card-title">
+                                Green Sweep - School Clean-Up Program
+                            </h3>
+
+                            <h5 class="caption">
+                                By PURE
+                            </h5>
+                        </div>
+                    </div>
+                </div> *@
+            </div>
+
+            <div class="action-btn-wrapper">
+                <a class="view-all-btn">View All <span> <img src="./Assets/icons/right-arrow.svg" alt="" /> </span></a>
+            </div>
+        </div>
+    </div>
+
+    @* CSO Projects banner Section *@
+
+    <div class="cso-banner-section">
+        <div class="cso-banner-title">
+            Empaneled CSO Projects!
+        </div>
+
+        <div class="cso-banner-subtitle">
+            From community development to environmental stewardship, our <br> array of <span>CSR project
+                proposals</span> offers impactful opportunities.
+        </div>
+    </div>
+
+    @* CSO Projects section *@
+
+    <div class="cso-project-section">
+        <div class="container">
+            @* Cards *@
+            <div class="row justify-content-center">
+                <div class="col-sm-12 col-lg-4 custom-card-width">
+                    <div class="card card-vertical">
+                        <div class="card-image">
+                            <img src="./Assets/images/circle-of-love.png" alt="" />
+                        </div>
+                        <div class="card-details">
+                            <h3 class="card-title">
+                                Circle of Love - Employee Volunteering
+                            </h3>
+
+                            <div class="extra-details">
+                                <h5>📍 Maharastra, Gujrat, Anywhere</h5>
+                                <h5> &nbsp₹ (INR) 1.0 Cr - 5.0 Cr</h5>
+                            </div>
+
+                            <h5 class="caption">
+                                Paramhansa Yogananda Public Charitable Trust
+                            </h5>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-12 col-lg-4 custom-card-width">
+                    <div class="card card-vertical">
+                        <div class="card-image">
+                            <img src="./Assets/images/Code-For-Change.png" alt="" />
+                        </div>
+                        <div class="card-details">
+                            <h3 class="card-title">
+                                Code For Change - Robotics And Coding
+                            </h3>
+
+                            <div class="extra-details">
+                                <h5>📍 Maharastra, Gujrat, Anywhere</h5>
+                                <h5> &nbsp₹ (INR) 1.0 Cr - 5.0 Cr</h5>
+                            </div>
+
+                            <h5 class="caption">
+                                By PURE
+                            </h5>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-12 col-lg-4 custom-card-width">
+                    <div class="card card-vertical">
+                        <div class="card-image">
+                            <img src="./Assets/images/Green-Sweep.png" alt="" />
+                        </div>
+                        <div class="card-details">
+                            <h3 class="card-title">
+                                Green Sweep - School Clean-Up Program
+                            </h3>
+
+                            <div class="extra-details">
+                                <h5>📍 Maharastra, Gujrat, Anywhere</h5>
+                                <h5> &nbsp₹ (INR) 1.0 Cr - 5.0 Cr</h5>
+                            </div>
+
+                            <h5 class="caption">
+                                By PURE
+                            </h5>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="action-btn-wrapper">
+                <a class="view-all-btn">View All <span> <img src="./Assets/icons/right-arrow.svg" alt="" /> </span> </a>
+            </div>
+        </div>
+    </div>
+
+    @* Partners section *@
+
+    <div class="partners-section">
+        <div class="row">
+            <div class="col-12 col-md-6 partner-logo-wrapper">
+                <h2>CSO partners</h2>
+                <img src="./Assets/images/partners/partner1.svg" alt="" />
+                <img src="./Assets/images/partners/partner2.svg" alt="" />
+                <img src="./Assets/images/partners/partner3.svg" alt="" />
+                <img src="./Assets/images/partners/partner4.svg" alt="" />
+            </div>
+
+            <div class="col-12 col-md-6 partner-logo-wrapper">
+                <h2>Company Partners</h2>
+                <img src="./Assets/images/partners/partner5.svg" alt="" />
+                <img src="./Assets/images/partners/partner6.svg" alt="" />
+                <img src="./Assets/images/partners/partner7.svg" alt="" />
+                <img src="./Assets/images/partners/partner8.svg" alt="" />
+            </div>
+        </div>
+    </div>
+</div>

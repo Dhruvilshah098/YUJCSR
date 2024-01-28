@@ -1,0 +1,90 @@
+﻿@using YUJCSR.Web.Portal.Models
+
+@{
+    Layout = "_Layout";
+    ViewData["Title"] = "Project List";
+}
+
+@{
+    var projects = ViewBag.Projects;
+}
+<div class="project-list-wrapper">
+    <div class="banner-section project-list-filter">
+        <div class="banner-title">
+            Facilitating <span>Connections Between CSOs & Companies</span> For Sustainable change
+        </div>
+
+        <div class="info-search-wrapper">
+            <div class="filter-wrapper">
+            </div>
+
+            <div class="filter-actions">
+            </div>
+        </div>
+    </div>
+
+    <div class="project-list pb-5">
+        <div class="" style="padding: 37px 10px">
+            <h2 class="text-center">A Showcase of Sustainable Projects</h2>
+        </div>
+        <div class="container">
+            <div class="row g-3">
+            @foreach (var data in @projects)
+            {
+                
+                
+                    <div class="col-sm-12 col-md-6 col-lg-4 custom-card-width">
+                        <div class="card card-vertical" data-item-id="@data.ProjectID">                            
+                            <div class="card-image multiple-image">
+                                <img src="/Assets/images/circle-of-love.png" alt="" />
+                                <img src="/Assets/images/circle-of-love.png" alt="" />
+                                <img src="/Assets/images/circle-of-love.png" alt="" />
+                                <img src="/Assets/images/circle-of-love.png" alt="" />
+                            </div>
+                            <div class="card-details">
+                                <h3 class="card-title">
+                                    @data.Title
+                                </h3>
+
+                                <div class="extra-details">
+                                    <h5>📍 @data.Location</h5>
+                                    <h5> &nbsp₹ (INR) @data.TotalBudget</h5>
+                                </div>
+
+                                <h5 class="caption">
+                                    Paramhansa Yogananda Public Charitable Trust
+                                </h5>
+                            </div>
+                        </div>
+                    </div>
+
+                
+            }
+            </div>
+        </div>
+    </div>
+
+</div>
+
+@section scripts {
+<script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+<script>
+    $(document).ready(function () {
+        $('.card').click(function () {
+            var itemId = $(this).data('item-id');
+
+                $.ajax({
+                    type: 'GET',
+                    url: '@Url.Action("Details", "Project")',
+                    data: {id:itemId},
+                    dataType: 'json',
+                    success: function (data) { },
+                    error: function () {
+                        alert("Error loading data.");
+                    }
+                });
+            window.location.href = '@Url.Action("Details", "Project", new { id = "__itemId__" })'.replace('__itemId__', itemId);            
+        });
+    });
+</script>
+}
