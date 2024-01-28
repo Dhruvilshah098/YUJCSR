@@ -60,5 +60,10 @@ namespace YUJCSR.Web.CSO.Controllers
         {
             return View();
         }
+
+        public IActionResult Profile()
+        {
+            return View();
+        }
     }
 }
