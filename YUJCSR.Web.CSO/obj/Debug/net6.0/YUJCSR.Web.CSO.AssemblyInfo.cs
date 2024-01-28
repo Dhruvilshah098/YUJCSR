@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("YUJCSR.Web.CSO")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+f5685a2ff2fd24ffe196cb4fa8b607de2f2ef705")]
 [assembly: System.Reflection.AssemblyProductAttribute("YUJCSR.Web.CSO")]
 [assembly: System.Reflection.AssemblyTitleAttribute("YUJCSR.Web.CSO")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
