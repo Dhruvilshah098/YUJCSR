@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\buildMultiTargeting\YUJCSR.Web.Company.props" />
+</Project>
