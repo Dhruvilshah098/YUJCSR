@@ -1,4 +1,4 @@
-﻿@model List<YUJCSR.Web.Project.Models.BudgetModel>
+﻿@model YUJCSR.Web.Project.Models.ResultListMilestone
 
 @{
 	Layout = "_CRM-Layout";
@@ -6,39 +6,35 @@
 
 <section>
 	<div class="text-right">
-		<a href="/project/BudgetCreate" class="btn btn-primary">Create Budget</a>
+		<a href=@Url.Action("CreateMilestone","Project" , new { ProjectId = Model.projectId}) class="btn btn-primary">Create Milestone</a>
 	</div>
 
 	<div class="list-data mt-3">
 		<!-- DataTales Example -->
 		<div class="card shadow mb-4">
+			
 			<div class="card-header py-3">
-				<h6 class="m-0 font-weight-bold text-primary">Budget</h6>
+				<h6 class="m-0 font-weight-bold text-primary">Milestones</h6>
 			</div>
-
-
 			<div class="card-body">
 				<div class="table-responsive">
 					<table class="table table-bordered" id="dataTable" width="100%" cellspacing="0">
 						<thead>
 							<tr>
-								<th>Milestone</th>
-								<th>Description</th>
-								<th>Amount</th>
+								<th>Milestone Name</th>
+								<th>Milestone Description</th>
 								<th>Actions </th>
 							</tr>
 						</thead>
 						<tbody>
-							@foreach (var data in Model)
+							@foreach (var data in Model.result)
 							{
 								<tr>
-									<td> @data.milestone </td>
+									<td> @data.milestoneName </td>
 								    <td> @data.description </td>
-								    <td> @data.amount </td>
-									<td> <a href="/Project/BudgetEdit"><i class="fas fa-edit"></i></a> </td>
+									<td> <a href=@Url.Action("EditMilestone","Project" , new { MilestoneId = data.milestoneID })><i class="fas fa-edit"></i></a></td>
 								</tr>
 							}
-
 						</tbody>
 					</table>
 				</div>

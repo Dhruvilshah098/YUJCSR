@@ -40,7 +40,7 @@
 									<td> @data.totalBudget </td>
 									<td> @data.durationInMonths </td>
 									<td>
-										<a href="/Project/Edit"><i class="fas fa-edit"></i></a> |
+										<a href=@Url.Action("Edit","Project", new {projectid= data.projectID})><i class="fas fa-edit"></i></a> |
 										&nbsp;
 										<a href=@Url.Action("Milestones","Project", new {projectid= data.projectID})>Milestones</a>
 										|

@@ -39,6 +39,7 @@ namespace YUJCSR.Web.CSO.Controllers
         {
             return View();
         }
+
         [HttpPost]
         public async Task<IActionResult> Register(CSOProfileModel cso)
         {
