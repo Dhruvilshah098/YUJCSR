@@ -99,28 +99,20 @@ namespace YUJCSR.Web.CSO.BusinessManager
 						apiMethod = "Project/" + dataInputRequest.result.projectID + "/Milestone";
 						dataInputRequest.result.createdBy = "cso portal";
 						dataInputRequest.result.activeStatus = true;
-
-						var postTask = client.PostAsJsonAsync<MilestoneModel>(apiMethod, dataInputRequest.result);
-
-						postTask.Wait();
-						var Res = postTask.Result;
-						if (Res.IsSuccessStatusCode)
-						{
-							return true;
-						}
 					}
 					else
 					{
+						dataInputRequest.result.activeStatus = true;
 						apiMethod = "Milestone/" + dataInputRequest.result.milestoneID;
-						var postTask = client.PutAsJsonAsync<MilestoneModel>(apiMethod, dataInputRequest.result);
+					}
 
-						postTask.Wait();
-						var Res = postTask.Result;
-						if (Res.IsSuccessStatusCode)
-						{
-							return true;
-						}
+					var postTask = client.PostAsJsonAsync<MilestoneModel>(apiMethod, dataInputRequest.result);
 
+					postTask.Wait();
+					var Res = postTask.Result;
+					if (Res.IsSuccessStatusCode)
+					{
+						return true;
 					}
 				}
 			}
@@ -150,25 +142,19 @@ namespace YUJCSR.Web.CSO.BusinessManager
 						apiMethod = "Project/" + dataInputRequest.projectID + "/Budget";
 						dataInputRequest.createdBy = "cso portal";
 						dataInputRequest.activeStatus = true;
-
-						var postTask = client.PostAsJsonAsync<BudgetModel>(apiMethod, dataInputRequest);
-						postTask.Wait();
-						var Res = postTask.Result;
-						if (Res.IsSuccessStatusCode)
-						{
-							return true;
-						}
 					}
 					else
 					{
 						apiMethod = "Project/Budgets/" + dataInputRequest.budgetID;
-						var postTask = client.PutAsJsonAsync<BudgetModel>(apiMethod, dataInputRequest);
-						postTask.Wait();
-						var Res = postTask.Result;
-						if (Res.IsSuccessStatusCode)
-						{
-							return true;
-						}
+						dataInputRequest.activeStatus = true;
+					}
+
+					var postTask = client.PostAsJsonAsync<BudgetModel>(apiMethod, dataInputRequest);
+					postTask.Wait();
+					var Res = postTask.Result;
+					if (Res.IsSuccessStatusCode)
+					{
+						return true;
 					}
 				}
 			}
@@ -199,25 +185,18 @@ namespace YUJCSR.Web.CSO.BusinessManager
 						dataInputRequest.createdBy = "cso portal";
 						dataInputRequest.activeStatus = true;
 
-						var postTask = client.PostAsJsonAsync<ProjectModel>(apiMethod, dataInputRequest);
-						postTask.Wait();
-						var Res = postTask.Result;
-						if (Res.IsSuccessStatusCode)
-						{
-							return true;
-						}
 					}
 					else
 					{
-						dataInputRequest.modifiedBy = "test user";
+						dataInputRequest.activeStatus = true;
 						apiMethod = "Project/" + dataInputRequest.projectID;
-						var postTask = client.PutAsJsonAsync<ProjectModel>(apiMethod, dataInputRequest);
-						postTask.Wait();
-						var Res = postTask.Result;
-						if (Res.IsSuccessStatusCode)
-						{
-							return true;
-						}
+					}
+					var postTask = client.PostAsJsonAsync<ProjectModel>(apiMethod, dataInputRequest);
+					postTask.Wait();
+					var Res = postTask.Result;
+					if (Res.IsSuccessStatusCode)
+					{
+						return true;
 					}
 				}
 			}
