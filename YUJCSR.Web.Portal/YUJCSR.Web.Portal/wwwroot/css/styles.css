@@ -102,7 +102,8 @@ main {
   }
 }
 .header-navbar .navbar-collapse .navbar-nav .nav-item .nav-link:hover {
-  border-bottom: 2px solid #000;
+  /*border-bottom: 2px solid #000;*/
+  color: #0271BC;
 }
 .header-navbar .action-container {
   display: flex;
@@ -763,6 +764,35 @@ main {
   font-size: 14px;
   font-weight: 500;
   line-height: normal;
+}
+
+/* contact us page */
+.address-wrapper {
+  background: #ffffff;
+}
+.address-wrapper .address-label {
+  font-weight: 600;
+  font-size: 24px;
+  margin-bottom: 1rem;
+}
+.address-wrapper .address {
+  margin-bottom: 1rem;
+}
+
+.contact-wrapper .form-group {
+  margin-bottom: 1.5rem;
+}
+.contact-wrapper .form-group label {
+  font-weight: 600;
+}
+.contact-wrapper .form-group .form-control {
+  border: 0px;
+}
+.contact-wrapper .form-group .btn.btn-primary {
+  background-color: #F74747;
+  color: #ffffff;
+  border-color: #F74747;
+  border-radius: 20px;
 }
 
 /* Vertical Cards */

@@ -34,7 +34,8 @@ main {
                     }
 
                     &:hover {
-                        border-bottom: 2px solid #000;
+                        /*border-bottom: 2px solid #000;*/
+                        color: #0271BC;
                     }
                 }
             }
@@ -820,6 +821,43 @@ main {
                 font-weight: 500;
                 line-height: normal;
             }
+        }
+    }
+}
+
+/* contact us page */
+
+.address-wrapper {
+    background: #ffffff;
+
+    .address-label {
+        font-weight: 600;
+        font-size: 24px;
+        margin-bottom: 1rem;
+    }
+
+    .address {
+        margin-bottom: 1rem;
+    }
+}
+
+.contact-wrapper {
+    .form-group {
+        margin-bottom: 1.5rem;
+
+        label {
+            font-weight: 600;
+        }
+
+        .form-control {
+            border: 0px;
+        }
+
+        .btn.btn-primary {
+            background-color: #F74747;
+            color: #ffffff;
+            border-color: #F74747;
+            border-radius: 20px;
         }
     }
 }
