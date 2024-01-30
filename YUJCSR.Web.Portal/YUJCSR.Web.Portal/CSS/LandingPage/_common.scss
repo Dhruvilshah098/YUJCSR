@@ -115,11 +115,67 @@ main {
         height: 50px;
         background: #ffffff;
         height: 73px;
-        /*width: 967px;*/
+        width: 967px;
+        margin: auto;
         border-radius: 10px;
         box-shadow: 0px 0px 50px 0px rgba(0, 0, 0, 0.20);
-        display: flex;
-        justify-content: space-between;
+        padding-left: 15px;
+        padding-right: 15px;
+
+        .filter-wrapper {
+            display: flex;
+
+            .filter-dropdown {
+                position: relative;
+
+                &:not(:last-child) {
+                    &::after {
+                        content: "";
+                        position: absolute;
+                        right: 0;
+                        top: 50%;
+                        transform: translateY(-50%);
+                        background: #D9D9D9;
+                        width: 1px;
+                        height: 50px;
+                        margin-right: 17px;
+                    }
+                }
+
+                .dropdown-label {
+                    color: #727270;
+                    font-family: Poppins;
+                    font-size: 14px;
+                    font-style: normal;
+                    font-weight: 400;
+                    line-height: normal;
+                    padding-left: 12px;
+                }
+
+                .dropdown {
+                    button {
+                        color: #000;
+                        font-family: Poppins;
+                        font-size: 18px;
+                        font-style: normal;
+                        font-weight: 400;
+                        line-height: normal;
+                        padding: 0px 12px;
+                        
+                        &.dropdown-toggle {
+                            &::after {
+                                display: none;
+                            }
+                        }
+
+                        &:hover {
+                            border: 1px solid var(--bs-gray-500);
+                            border-radius: 6px;
+                        }
+                    }
+                }
+            }
+        }
     }
 }
 

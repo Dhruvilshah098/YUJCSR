@@ -1,411 +1,411 @@
 {
   "Files": [
     {
-      "Id": "C:\\Users\\shahn\\OneDrive\\Desktop\\YUJCSR.Web.Portal\\YUJCSR.Web.Portal\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\YUJCSR.Web.Portal.bundle.scp.css",
+      "Id": "C:\\Users\\shahn\\OneDrive\\Documents\\GitHub\\YUJCSR\\YUJCSR.Web.Portal\\YUJCSR.Web.Portal\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\YUJCSR.Web.Portal.bundle.scp.css",
       "PackagePath": "staticwebassets\\YUJCSR.Web.Portal.bundle.scp.css"
     },
     {
-      "Id": "C:\\Users\\shahn\\OneDrive\\Desktop\\YUJCSR.Web.Portal\\YUJCSR.Web.Portal\\wwwroot\\Assets\\Fonts\\Artegra Soft Regular.ttf",
+      "Id": "C:\\Users\\shahn\\OneDrive\\Documents\\GitHub\\YUJCSR\\YUJCSR.Web.Portal\\YUJCSR.Web.Portal\\wwwroot\\Assets\\Fonts\\Artegra Soft Regular.ttf",
       "PackagePath": "staticwebassets\\Assets\\Fonts\\Artegra Soft Regular.ttf"
     },
     {
-      "Id": "C:\\Users\\shahn\\OneDrive\\Desktop\\YUJCSR.Web.Portal\\YUJCSR.Web.Portal\\wwwroot\\Assets\\Fonts\\ArtegraSoft-Regular.ttf",
+      "Id": "C:\\Users\\shahn\\OneDrive\\Documents\\GitHub\\YUJCSR\\YUJCSR.Web.Portal\\YUJCSR.Web.Portal\\wwwroot\\Assets\\Fonts\\ArtegraSoft-Regular.ttf",
       "PackagePath": "staticwebassets\\Assets\\Fonts\\ArtegraSoft-Regular.ttf"
     },
     {
-      "Id": "C:\\Users\\shahn\\OneDrive\\Desktop\\YUJCSR.Web.Portal\\YUJCSR.Web.Portal\\wwwroot\\Assets\\icons\\fb.svg",
+      "Id": "C:\\Users\\shahn\\OneDrive\\Documents\\GitHub\\YUJCSR\\YUJCSR.Web.Portal\\YUJCSR.Web.Portal\\wwwroot\\Assets\\icons\\fb.svg",
       "PackagePath": "staticwebassets\\Assets\\icons\\fb.svg"
     },
     {
-      "Id": "C:\\Users\\shahn\\OneDrive\\Desktop\\YUJCSR.Web.Portal\\YUJCSR.Web.Portal\\wwwroot\\Assets\\icons\\filter.svg",
+      "Id": "C:\\Users\\shahn\\OneDrive\\Documents\\GitHub\\YUJCSR\\YUJCSR.Web.Portal\\YUJCSR.Web.Portal\\wwwroot\\Assets\\icons\\filter.svg",
       "PackagePath": "staticwebassets\\Assets\\icons\\filter.svg"
     },
     {
-      "Id": "C:\\Users\\shahn\\OneDrive\\Desktop\\YUJCSR.Web.Portal\\YUJCSR.Web.Portal\\wwwroot\\Assets\\icons\\instagram.svg",
+      "Id": "C:\\Users\\shahn\\OneDrive\\Documents\\GitHub\\YUJCSR\\YUJCSR.Web.Portal\\YUJCSR.Web.Portal\\wwwroot\\Assets\\icons\\instagram.svg",
       "PackagePath": "staticwebassets\\Assets\\icons\\instagram.svg"
     },
     {
-      "Id": "C:\\Users\\shahn\\OneDrive\\Desktop\\YUJCSR.Web.Portal\\YUJCSR.Web.Portal\\wwwroot\\Assets\\icons\\linkedin.svg",
+      "Id": "C:\\Users\\shahn\\OneDrive\\Documents\\GitHub\\YUJCSR\\YUJCSR.Web.Portal\\YUJCSR.Web.Portal\\wwwroot\\Assets\\icons\\linkedin.svg",
       "PackagePath": "staticwebassets\\Assets\\icons\\linkedin.svg"
     },
     {
-      "Id": "C:\\Users\\shahn\\OneDrive\\Desktop\\YUJCSR.Web.Portal\\YUJCSR.Web.Portal\\wwwroot\\Assets\\icons\\right-arrow.svg",
+      "Id": "C:\\Users\\shahn\\OneDrive\\Documents\\GitHub\\YUJCSR\\YUJCSR.Web.Portal\\YUJCSR.Web.Portal\\wwwroot\\Assets\\icons\\right-arrow.svg",
       "PackagePath": "staticwebassets\\Assets\\icons\\right-arrow.svg"
     },
     {
-      "Id": "C:\\Users\\shahn\\OneDrive\\Desktop\\YUJCSR.Web.Portal\\YUJCSR.Web.Portal\\wwwroot\\Assets\\icons\\search.svg",
+      "Id": "C:\\Users\\shahn\\OneDrive\\Documents\\GitHub\\YUJCSR\\YUJCSR.Web.Portal\\YUJCSR.Web.Portal\\wwwroot\\Assets\\icons\\search.svg",
       "PackagePath": "staticwebassets\\Assets\\icons\\search.svg"
     },
     {
-      "Id": "C:\\Users\\shahn\\OneDrive\\Desktop\\YUJCSR.Web.Portal\\YUJCSR.Web.Portal\\wwwroot\\Assets\\images\\Code-For-Change.png",
+      "Id": "C:\\Users\\shahn\\OneDrive\\Documents\\GitHub\\YUJCSR\\YUJCSR.Web.Portal\\YUJCSR.Web.Portal\\wwwroot\\Assets\\images\\Code-For-Change.png",
       "PackagePath": "staticwebassets\\Assets\\images\\Code-For-Change.png"
     },
     {
-      "Id": "C:\\Users\\shahn\\OneDrive\\Desktop\\YUJCSR.Web.Portal\\YUJCSR.Web.Portal\\wwwroot\\Assets\\images\\Construction-&-Demolition-(C&D)-waste-management-Hyderabad.png",
+      "Id": "C:\\Users\\shahn\\OneDrive\\Documents\\GitHub\\YUJCSR\\YUJCSR.Web.Portal\\YUJCSR.Web.Portal\\wwwroot\\Assets\\images\\Construction-&-Demolition-(C&D)-waste-management-Hyderabad.png",
       "PackagePath": "staticwebassets\\Assets\\images\\Construction-&-Demolition-(C&D)-waste-management-Hyderabad.png"
     },
     {
-      "Id": "C:\\Users\\shahn\\OneDrive\\Desktop\\YUJCSR.Web.Portal\\YUJCSR.Web.Portal\\wwwroot\\Assets\\images\\Empowering-students-and-teachers-with-STEM-education-Skills-and-Tools.png",
+      "Id": "C:\\Users\\shahn\\OneDrive\\Documents\\GitHub\\YUJCSR\\YUJCSR.Web.Portal\\YUJCSR.Web.Portal\\wwwroot\\Assets\\images\\Empowering-students-and-teachers-with-STEM-education-Skills-and-Tools.png",
       "PackagePath": "staticwebassets\\Assets\\images\\Empowering-students-and-teachers-with-STEM-education-Skills-and-Tools.png"
     },
     {
-      "Id": "C:\\Users\\shahn\\OneDrive\\Desktop\\YUJCSR.Web.Portal\\YUJCSR.Web.Portal\\wwwroot\\Assets\\images\\Green-Sweep.png",
+      "Id": "C:\\Users\\shahn\\OneDrive\\Documents\\GitHub\\YUJCSR\\YUJCSR.Web.Portal\\YUJCSR.Web.Portal\\wwwroot\\Assets\\images\\Green-Sweep.png",
       "PackagePath": "staticwebassets\\Assets\\images\\Green-Sweep.png"
     },
     {
-      "Id": "C:\\Users\\shahn\\OneDrive\\Desktop\\YUJCSR.Web.Portal\\YUJCSR.Web.Portal\\wwwroot\\Assets\\images\\Safeguarding-girls-in-sports.png",
+      "Id": "C:\\Users\\shahn\\OneDrive\\Documents\\GitHub\\YUJCSR\\YUJCSR.Web.Portal\\YUJCSR.Web.Portal\\wwwroot\\Assets\\images\\Safeguarding-girls-in-sports.png",
       "PackagePath": "staticwebassets\\Assets\\images\\Safeguarding-girls-in-sports.png"
     },
     {
-      "Id": "C:\\Users\\shahn\\OneDrive\\Desktop\\YUJCSR.Web.Portal\\YUJCSR.Web.Portal\\wwwroot\\Assets\\images\\aboutus\\11.svg",
+      "Id": "C:\\Users\\shahn\\OneDrive\\Documents\\GitHub\\YUJCSR\\YUJCSR.Web.Portal\\YUJCSR.Web.Portal\\wwwroot\\Assets\\images\\aboutus\\11.svg",
       "PackagePath": "staticwebassets\\Assets\\images\\aboutus\\11.svg"
     },
     {
-      "Id": "C:\\Users\\shahn\\OneDrive\\Desktop\\YUJCSR.Web.Portal\\YUJCSR.Web.Portal\\wwwroot\\Assets\\images\\aboutus\\13.svg",
+      "Id": "C:\\Users\\shahn\\OneDrive\\Documents\\GitHub\\YUJCSR\\YUJCSR.Web.Portal\\YUJCSR.Web.Portal\\wwwroot\\Assets\\images\\aboutus\\13.svg",
       "PackagePath": "staticwebassets\\Assets\\images\\aboutus\\13.svg"
     },
     {
-      "Id": "C:\\Users\\shahn\\OneDrive\\Desktop\\YUJCSR.Web.Portal\\YUJCSR.Web.Portal\\wwwroot\\Assets\\images\\aboutus\\14.svg",
+      "Id": "C:\\Users\\shahn\\OneDrive\\Documents\\GitHub\\YUJCSR\\YUJCSR.Web.Portal\\YUJCSR.Web.Portal\\wwwroot\\Assets\\images\\aboutus\\14.svg",
       "PackagePath": "staticwebassets\\Assets\\images\\aboutus\\14.svg"
     },
     {
-      "Id": "C:\\Users\\shahn\\OneDrive\\Desktop\\YUJCSR.Web.Portal\\YUJCSR.Web.Portal\\wwwroot\\Assets\\images\\aboutus\\15.svg",
+      "Id": "C:\\Users\\shahn\\OneDrive\\Documents\\GitHub\\YUJCSR\\YUJCSR.Web.Portal\\YUJCSR.Web.Portal\\wwwroot\\Assets\\images\\aboutus\\15.svg",
       "PackagePath": "staticwebassets\\Assets\\images\\aboutus\\15.svg"
     },
     {
-      "Id": "C:\\Users\\shahn\\OneDrive\\Desktop\\YUJCSR.Web.Portal\\YUJCSR.Web.Portal\\wwwroot\\Assets\\images\\aboutus\\17.svg",
+      "Id": "C:\\Users\\shahn\\OneDrive\\Documents\\GitHub\\YUJCSR\\YUJCSR.Web.Portal\\YUJCSR.Web.Portal\\wwwroot\\Assets\\images\\aboutus\\17.svg",
       "PackagePath": "staticwebassets\\Assets\\images\\aboutus\\17.svg"
     },
     {
-      "Id": "C:\\Users\\shahn\\OneDrive\\Desktop\\YUJCSR.Web.Portal\\YUJCSR.Web.Portal\\wwwroot\\Assets\\images\\aboutus\\3.svg",
+      "Id": "C:\\Users\\shahn\\OneDrive\\Documents\\GitHub\\YUJCSR\\YUJCSR.Web.Portal\\YUJCSR.Web.Portal\\wwwroot\\Assets\\images\\aboutus\\3.svg",
       "PackagePath": "staticwebassets\\Assets\\images\\aboutus\\3.svg"
     },
     {
-      "Id": "C:\\Users\\shahn\\OneDrive\\Desktop\\YUJCSR.Web.Portal\\YUJCSR.Web.Portal\\wwwroot\\Assets\\images\\aboutus\\6.svg",
+      "Id": "C:\\Users\\shahn\\OneDrive\\Documents\\GitHub\\YUJCSR\\YUJCSR.Web.Portal\\YUJCSR.Web.Portal\\wwwroot\\Assets\\images\\aboutus\\6.svg",
       "PackagePath": "staticwebassets\\Assets\\images\\aboutus\\6.svg"
     },
     {
-      "Id": "C:\\Users\\shahn\\OneDrive\\Desktop\\YUJCSR.Web.Portal\\YUJCSR.Web.Portal\\wwwroot\\Assets\\images\\aboutus\\7.svg",
+      "Id": "C:\\Users\\shahn\\OneDrive\\Documents\\GitHub\\YUJCSR\\YUJCSR.Web.Portal\\YUJCSR.Web.Portal\\wwwroot\\Assets\\images\\aboutus\\7.svg",
       "PackagePath": "staticwebassets\\Assets\\images\\aboutus\\7.svg"
     },
     {
-      "Id": "C:\\Users\\shahn\\OneDrive\\Desktop\\YUJCSR.Web.Portal\\YUJCSR.Web.Portal\\wwwroot\\Assets\\images\\aboutus\\9.svg",
+      "Id": "C:\\Users\\shahn\\OneDrive\\Documents\\GitHub\\YUJCSR\\YUJCSR.Web.Portal\\YUJCSR.Web.Portal\\wwwroot\\Assets\\images\\aboutus\\9.svg",
       "PackagePath": "staticwebassets\\Assets\\images\\aboutus\\9.svg"
     },
     {
-      "Id": "C:\\Users\\shahn\\OneDrive\\Desktop\\YUJCSR.Web.Portal\\YUJCSR.Web.Portal\\wwwroot\\Assets\\images\\aboutus\\mission.svg",
+      "Id": "C:\\Users\\shahn\\OneDrive\\Documents\\GitHub\\YUJCSR\\YUJCSR.Web.Portal\\YUJCSR.Web.Portal\\wwwroot\\Assets\\images\\aboutus\\mission.svg",
       "PackagePath": "staticwebassets\\Assets\\images\\aboutus\\mission.svg"
     },
     {
-      "Id": "C:\\Users\\shahn\\OneDrive\\Desktop\\YUJCSR.Web.Portal\\YUJCSR.Web.Portal\\wwwroot\\Assets\\images\\aboutus\\vission.svg",
+      "Id": "C:\\Users\\shahn\\OneDrive\\Documents\\GitHub\\YUJCSR\\YUJCSR.Web.Portal\\YUJCSR.Web.Portal\\wwwroot\\Assets\\images\\aboutus\\vission.svg",
       "PackagePath": "staticwebassets\\Assets\\images\\aboutus\\vission.svg"
     },
     {
-      "Id": "C:\\Users\\shahn\\OneDrive\\Desktop\\YUJCSR.Web.Portal\\YUJCSR.Web.Portal\\wwwroot\\Assets\\images\\banner-image.svg",
+      "Id": "C:\\Users\\shahn\\OneDrive\\Documents\\GitHub\\YUJCSR\\YUJCSR.Web.Portal\\YUJCSR.Web.Portal\\wwwroot\\Assets\\images\\banner-image.svg",
       "PackagePath": "staticwebassets\\Assets\\images\\banner-image.svg"
     },
     {
-      "Id": "C:\\Users\\shahn\\OneDrive\\Desktop\\YUJCSR.Web.Portal\\YUJCSR.Web.Portal\\wwwroot\\Assets\\images\\circle-of-love.png",
+      "Id": "C:\\Users\\shahn\\OneDrive\\Documents\\GitHub\\YUJCSR\\YUJCSR.Web.Portal\\YUJCSR.Web.Portal\\wwwroot\\Assets\\images\\circle-of-love.png",
       "PackagePath": "staticwebassets\\Assets\\images\\circle-of-love.png"
     },
     {
-      "Id": "C:\\Users\\shahn\\OneDrive\\Desktop\\YUJCSR.Web.Portal\\YUJCSR.Web.Portal\\wwwroot\\Assets\\images\\logo.png",
+      "Id": "C:\\Users\\shahn\\OneDrive\\Documents\\GitHub\\YUJCSR\\YUJCSR.Web.Portal\\YUJCSR.Web.Portal\\wwwroot\\Assets\\images\\logo.png",
       "PackagePath": "staticwebassets\\Assets\\images\\logo.png"
     },
     {
-      "Id": "C:\\Users\\shahn\\OneDrive\\Desktop\\YUJCSR.Web.Portal\\YUJCSR.Web.Portal\\wwwroot\\Assets\\images\\logo.svg",
+      "Id": "C:\\Users\\shahn\\OneDrive\\Documents\\GitHub\\YUJCSR\\YUJCSR.Web.Portal\\YUJCSR.Web.Portal\\wwwroot\\Assets\\images\\logo.svg",
       "PackagePath": "staticwebassets\\Assets\\images\\logo.svg"
     },
     {
-      "Id": "C:\\Users\\shahn\\OneDrive\\Desktop\\YUJCSR.Web.Portal\\YUJCSR.Web.Portal\\wwwroot\\Assets\\images\\partners\\partner1.svg",
+      "Id": "C:\\Users\\shahn\\OneDrive\\Documents\\GitHub\\YUJCSR\\YUJCSR.Web.Portal\\YUJCSR.Web.Portal\\wwwroot\\Assets\\images\\partners\\partner1.svg",
       "PackagePath": "staticwebassets\\Assets\\images\\partners\\partner1.svg"
     },
     {
-      "Id": "C:\\Users\\shahn\\OneDrive\\Desktop\\YUJCSR.Web.Portal\\YUJCSR.Web.Portal\\wwwroot\\Assets\\images\\partners\\partner2.svg",
+      "Id": "C:\\Users\\shahn\\OneDrive\\Documents\\GitHub\\YUJCSR\\YUJCSR.Web.Portal\\YUJCSR.Web.Portal\\wwwroot\\Assets\\images\\partners\\partner2.svg",
       "PackagePath": "staticwebassets\\Assets\\images\\partners\\partner2.svg"
     },
     {
-      "Id": "C:\\Users\\shahn\\OneDrive\\Desktop\\YUJCSR.Web.Portal\\YUJCSR.Web.Portal\\wwwroot\\Assets\\images\\partners\\partner3.svg",
+      "Id": "C:\\Users\\shahn\\OneDrive\\Documents\\GitHub\\YUJCSR\\YUJCSR.Web.Portal\\YUJCSR.Web.Portal\\wwwroot\\Assets\\images\\partners\\partner3.svg",
       "PackagePath": "staticwebassets\\Assets\\images\\partners\\partner3.svg"
     },
     {
-      "Id": "C:\\Users\\shahn\\OneDrive\\Desktop\\YUJCSR.Web.Portal\\YUJCSR.Web.Portal\\wwwroot\\Assets\\images\\partners\\partner4.svg",
+      "Id": "C:\\Users\\shahn\\OneDrive\\Documents\\GitHub\\YUJCSR\\YUJCSR.Web.Portal\\YUJCSR.Web.Portal\\wwwroot\\Assets\\images\\partners\\partner4.svg",
       "PackagePath": "staticwebassets\\Assets\\images\\partners\\partner4.svg"
     },
     {
-      "Id": "C:\\Users\\shahn\\OneDrive\\Desktop\\YUJCSR.Web.Portal\\YUJCSR.Web.Portal\\wwwroot\\Assets\\images\\partners\\partner5.svg",
+      "Id": "C:\\Users\\shahn\\OneDrive\\Documents\\GitHub\\YUJCSR\\YUJCSR.Web.Portal\\YUJCSR.Web.Portal\\wwwroot\\Assets\\images\\partners\\partner5.svg",
       "PackagePath": "staticwebassets\\Assets\\images\\partners\\partner5.svg"
     },
     {
-      "Id": "C:\\Users\\shahn\\OneDrive\\Desktop\\YUJCSR.Web.Portal\\YUJCSR.Web.Portal\\wwwroot\\Assets\\images\\partners\\partner6.svg",
+      "Id": "C:\\Users\\shahn\\OneDrive\\Documents\\GitHub\\YUJCSR\\YUJCSR.Web.Portal\\YUJCSR.Web.Portal\\wwwroot\\Assets\\images\\partners\\partner6.svg",
       "PackagePath": "staticwebassets\\Assets\\images\\partners\\partner6.svg"
     },
     {
-      "Id": "C:\\Users\\shahn\\OneDrive\\Desktop\\YUJCSR.Web.Portal\\YUJCSR.Web.Portal\\wwwroot\\Assets\\images\\partners\\partner7.svg",
+      "Id": "C:\\Users\\shahn\\OneDrive\\Documents\\GitHub\\YUJCSR\\YUJCSR.Web.Portal\\YUJCSR.Web.Portal\\wwwroot\\Assets\\images\\partners\\partner7.svg",
       "PackagePath": "staticwebassets\\Assets\\images\\partners\\partner7.svg"
     },
     {
-      "Id": "C:\\Users\\shahn\\OneDrive\\Desktop\\YUJCSR.Web.Portal\\YUJCSR.Web.Portal\\wwwroot\\Assets\\images\\partners\\partner8.svg",
+      "Id": "C:\\Users\\shahn\\OneDrive\\Documents\\GitHub\\YUJCSR\\YUJCSR.Web.Portal\\YUJCSR.Web.Portal\\wwwroot\\Assets\\images\\partners\\partner8.svg",
       "PackagePath": "staticwebassets\\Assets\\images\\partners\\partner8.svg"
     },
     {
-      "Id": "C:\\Users\\shahn\\OneDrive\\Desktop\\YUJCSR.Web.Portal\\YUJCSR.Web.Portal\\wwwroot\\Assets\\images\\team-pic.png",
+      "Id": "C:\\Users\\shahn\\OneDrive\\Documents\\GitHub\\YUJCSR\\YUJCSR.Web.Portal\\YUJCSR.Web.Portal\\wwwroot\\Assets\\images\\team-pic.png",
       "PackagePath": "staticwebassets\\Assets\\images\\team-pic.png"
     },
     {
-      "Id": "C:\\Users\\shahn\\OneDrive\\Desktop\\YUJCSR.Web.Portal\\YUJCSR.Web.Portal\\wwwroot\\Assets\\images\\who-we-are.png",
+      "Id": "C:\\Users\\shahn\\OneDrive\\Documents\\GitHub\\YUJCSR\\YUJCSR.Web.Portal\\YUJCSR.Web.Portal\\wwwroot\\Assets\\images\\who-we-are.png",
       "PackagePath": "staticwebassets\\Assets\\images\\who-we-are.png"
     },
     {
-      "Id": "C:\\Users\\shahn\\OneDrive\\Desktop\\YUJCSR.Web.Portal\\YUJCSR.Web.Portal\\wwwroot\\Assets\\images\\who-we-are.svg",
+      "Id": "C:\\Users\\shahn\\OneDrive\\Documents\\GitHub\\YUJCSR\\YUJCSR.Web.Portal\\YUJCSR.Web.Portal\\wwwroot\\Assets\\images\\who-we-are.svg",
       "PackagePath": "staticwebassets\\Assets\\images\\who-we-are.svg"
     },
     {
-      "Id": "C:\\Users\\shahn\\OneDrive\\Desktop\\YUJCSR.Web.Portal\\YUJCSR.Web.Portal\\wwwroot\\css\\site.css",
+      "Id": "C:\\Users\\shahn\\OneDrive\\Documents\\GitHub\\YUJCSR\\YUJCSR.Web.Portal\\YUJCSR.Web.Portal\\wwwroot\\css\\site.css",
       "PackagePath": "staticwebassets\\css\\site.css"
     },
     {
-      "Id": "C:\\Users\\shahn\\OneDrive\\Desktop\\YUJCSR.Web.Portal\\YUJCSR.Web.Portal\\wwwroot\\css\\styles.css",
+      "Id": "C:\\Users\\shahn\\OneDrive\\Documents\\GitHub\\YUJCSR\\YUJCSR.Web.Portal\\YUJCSR.Web.Portal\\wwwroot\\css\\styles.css",
       "PackagePath": "staticwebassets\\css\\styles.css"
     },
     {
-      "Id": "C:\\Users\\shahn\\OneDrive\\Desktop\\YUJCSR.Web.Portal\\YUJCSR.Web.Portal\\wwwroot\\favicon.ico",
+      "Id": "C:\\Users\\shahn\\OneDrive\\Documents\\GitHub\\YUJCSR\\YUJCSR.Web.Portal\\YUJCSR.Web.Portal\\wwwroot\\favicon.ico",
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
-      "Id": "C:\\Users\\shahn\\OneDrive\\Desktop\\YUJCSR.Web.Portal\\YUJCSR.Web.Portal\\wwwroot\\js\\_temp.js",
+      "Id": "C:\\Users\\shahn\\OneDrive\\Documents\\GitHub\\YUJCSR\\YUJCSR.Web.Portal\\YUJCSR.Web.Portal\\wwwroot\\js\\_temp.js",
       "PackagePath": "staticwebassets\\js\\_temp.js"
     },
     {
-      "Id": "C:\\Users\\shahn\\OneDrive\\Desktop\\YUJCSR.Web.Portal\\YUJCSR.Web.Portal\\wwwroot\\js\\site.js",
+      "Id": "C:\\Users\\shahn\\OneDrive\\Documents\\GitHub\\YUJCSR\\YUJCSR.Web.Portal\\YUJCSR.Web.Portal\\wwwroot\\js\\site.js",
       "PackagePath": "staticwebassets\\js\\site.js"
     },
     {
-      "Id": "C:\\Users\\shahn\\OneDrive\\Desktop\\YUJCSR.Web.Portal\\YUJCSR.Web.Portal\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "Id": "C:\\Users\\shahn\\OneDrive\\Documents\\GitHub\\YUJCSR\\YUJCSR.Web.Portal\\YUJCSR.Web.Portal\\wwwroot\\lib\\bootstrap\\LICENSE",
       "PackagePath": "staticwebassets\\lib\\bootstrap"
     },
     {
-      "Id": "C:\\Users\\shahn\\OneDrive\\Desktop\\YUJCSR.Web.Portal\\YUJCSR.Web.Portal\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "Id": "C:\\Users\\shahn\\OneDrive\\Documents\\GitHub\\YUJCSR\\YUJCSR.Web.Portal\\YUJCSR.Web.Portal\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
     },
     {
-      "Id": "C:\\Users\\shahn\\OneDrive\\Desktop\\YUJCSR.Web.Portal\\YUJCSR.Web.Portal\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "Id": "C:\\Users\\shahn\\OneDrive\\Documents\\GitHub\\YUJCSR\\YUJCSR.Web.Portal\\YUJCSR.Web.Portal\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
     },
     {
-      "Id": "C:\\Users\\shahn\\OneDrive\\Desktop\\YUJCSR.Web.Portal\\YUJCSR.Web.Portal\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "Id": "C:\\Users\\shahn\\OneDrive\\Documents\\GitHub\\YUJCSR\\YUJCSR.Web.Portal\\YUJCSR.Web.Portal\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
     },
     {
-      "Id": "C:\\Users\\shahn\\OneDrive\\Desktop\\YUJCSR.Web.Portal\\YUJCSR.Web.Portal\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "Id": "C:\\Users\\shahn\\OneDrive\\Documents\\GitHub\\YUJCSR\\YUJCSR.Web.Portal\\YUJCSR.Web.Portal\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
     },
     {
-      "Id": "C:\\Users\\shahn\\OneDrive\\Desktop\\YUJCSR.Web.Portal\\YUJCSR.Web.Portal\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "Id": "C:\\Users\\shahn\\OneDrive\\Documents\\GitHub\\YUJCSR\\YUJCSR.Web.Portal\\YUJCSR.Web.Portal\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
     },
     {
-      "Id": "C:\\Users\\shahn\\OneDrive\\Desktop\\YUJCSR.Web.Portal\\YUJCSR.Web.Portal\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "Id": "C:\\Users\\shahn\\OneDrive\\Documents\\GitHub\\YUJCSR\\YUJCSR.Web.Portal\\YUJCSR.Web.Portal\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
     },
     {
-      "Id": "C:\\Users\\shahn\\OneDrive\\Desktop\\YUJCSR.Web.Portal\\YUJCSR.Web.Portal\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "Id": "C:\\Users\\shahn\\OneDrive\\Documents\\GitHub\\YUJCSR\\YUJCSR.Web.Portal\\YUJCSR.Web.Portal\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
     },
     {
-      "Id": "C:\\Users\\shahn\\OneDrive\\Desktop\\YUJCSR.Web.Portal\\YUJCSR.Web.Portal\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "Id": "C:\\Users\\shahn\\OneDrive\\Documents\\GitHub\\YUJCSR\\YUJCSR.Web.Portal\\YUJCSR.Web.Portal\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
     },
     {
-      "Id": "C:\\Users\\shahn\\OneDrive\\Desktop\\YUJCSR.Web.Portal\\YUJCSR.Web.Portal\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "Id": "C:\\Users\\shahn\\OneDrive\\Documents\\GitHub\\YUJCSR\\YUJCSR.Web.Portal\\YUJCSR.Web.Portal\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
     },
     {
-      "Id": "C:\\Users\\shahn\\OneDrive\\Desktop\\YUJCSR.Web.Portal\\YUJCSR.Web.Portal\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "Id": "C:\\Users\\shahn\\OneDrive\\Documents\\GitHub\\YUJCSR\\YUJCSR.Web.Portal\\YUJCSR.Web.Portal\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
     },
     {
-      "Id": "C:\\Users\\shahn\\OneDrive\\Desktop\\YUJCSR.Web.Portal\\YUJCSR.Web.Portal\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "Id": "C:\\Users\\shahn\\OneDrive\\Documents\\GitHub\\YUJCSR\\YUJCSR.Web.Portal\\YUJCSR.Web.Portal\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
     },
     {
-      "Id": "C:\\Users\\shahn\\OneDrive\\Desktop\\YUJCSR.Web.Portal\\YUJCSR.Web.Portal\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "Id": "C:\\Users\\shahn\\OneDrive\\Documents\\GitHub\\YUJCSR\\YUJCSR.Web.Portal\\YUJCSR.Web.Portal\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
     },
     {
-      "Id": "C:\\Users\\shahn\\OneDrive\\Desktop\\YUJCSR.Web.Portal\\YUJCSR.Web.Portal\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "Id": "C:\\Users\\shahn\\OneDrive\\Documents\\GitHub\\YUJCSR\\YUJCSR.Web.Portal\\YUJCSR.Web.Portal\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
     },
     {
-      "Id": "C:\\Users\\shahn\\OneDrive\\Desktop\\YUJCSR.Web.Portal\\YUJCSR.Web.Portal\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "Id": "C:\\Users\\shahn\\OneDrive\\Documents\\GitHub\\YUJCSR\\YUJCSR.Web.Portal\\YUJCSR.Web.Portal\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
     },
     {
-      "Id": "C:\\Users\\shahn\\OneDrive\\Desktop\\YUJCSR.Web.Portal\\YUJCSR.Web.Portal\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "Id": "C:\\Users\\shahn\\OneDrive\\Documents\\GitHub\\YUJCSR\\YUJCSR.Web.Portal\\YUJCSR.Web.Portal\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
     },
     {
-      "Id": "C:\\Users\\shahn\\OneDrive\\Desktop\\YUJCSR.Web.Portal\\YUJCSR.Web.Portal\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "Id": "C:\\Users\\shahn\\OneDrive\\Documents\\GitHub\\YUJCSR\\YUJCSR.Web.Portal\\YUJCSR.Web.Portal\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
     },
     {
-      "Id": "C:\\Users\\shahn\\OneDrive\\Desktop\\YUJCSR.Web.Portal\\YUJCSR.Web.Portal\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "Id": "C:\\Users\\shahn\\OneDrive\\Documents\\GitHub\\YUJCSR\\YUJCSR.Web.Portal\\YUJCSR.Web.Portal\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
     },
     {
-      "Id": "C:\\Users\\shahn\\OneDrive\\Desktop\\YUJCSR.Web.Portal\\YUJCSR.Web.Portal\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "Id": "C:\\Users\\shahn\\OneDrive\\Documents\\GitHub\\YUJCSR\\YUJCSR.Web.Portal\\YUJCSR.Web.Portal\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
     },
     {
-      "Id": "C:\\Users\\shahn\\OneDrive\\Desktop\\YUJCSR.Web.Portal\\YUJCSR.Web.Portal\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "Id": "C:\\Users\\shahn\\OneDrive\\Documents\\GitHub\\YUJCSR\\YUJCSR.Web.Portal\\YUJCSR.Web.Portal\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
     },
     {
-      "Id": "C:\\Users\\shahn\\OneDrive\\Desktop\\YUJCSR.Web.Portal\\YUJCSR.Web.Portal\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "Id": "C:\\Users\\shahn\\OneDrive\\Documents\\GitHub\\YUJCSR\\YUJCSR.Web.Portal\\YUJCSR.Web.Portal\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
     },
     {
-      "Id": "C:\\Users\\shahn\\OneDrive\\Desktop\\YUJCSR.Web.Portal\\YUJCSR.Web.Portal\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "Id": "C:\\Users\\shahn\\OneDrive\\Documents\\GitHub\\YUJCSR\\YUJCSR.Web.Portal\\YUJCSR.Web.Portal\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
     },
     {
-      "Id": "C:\\Users\\shahn\\OneDrive\\Desktop\\YUJCSR.Web.Portal\\YUJCSR.Web.Portal\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "Id": "C:\\Users\\shahn\\OneDrive\\Documents\\GitHub\\YUJCSR\\YUJCSR.Web.Portal\\YUJCSR.Web.Portal\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
     },
     {
-      "Id": "C:\\Users\\shahn\\OneDrive\\Desktop\\YUJCSR.Web.Portal\\YUJCSR.Web.Portal\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "Id": "C:\\Users\\shahn\\OneDrive\\Documents\\GitHub\\YUJCSR\\YUJCSR.Web.Portal\\YUJCSR.Web.Portal\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
     },
     {
-      "Id": "C:\\Users\\shahn\\OneDrive\\Desktop\\YUJCSR.Web.Portal\\YUJCSR.Web.Portal\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "Id": "C:\\Users\\shahn\\OneDrive\\Documents\\GitHub\\YUJCSR\\YUJCSR.Web.Portal\\YUJCSR.Web.Portal\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
     },
     {
-      "Id": "C:\\Users\\shahn\\OneDrive\\Desktop\\YUJCSR.Web.Portal\\YUJCSR.Web.Portal\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "Id": "C:\\Users\\shahn\\OneDrive\\Documents\\GitHub\\YUJCSR\\YUJCSR.Web.Portal\\YUJCSR.Web.Portal\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
     },
     {
-      "Id": "C:\\Users\\shahn\\OneDrive\\Desktop\\YUJCSR.Web.Portal\\YUJCSR.Web.Portal\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "Id": "C:\\Users\\shahn\\OneDrive\\Documents\\GitHub\\YUJCSR\\YUJCSR.Web.Portal\\YUJCSR.Web.Portal\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
     },
     {
-      "Id": "C:\\Users\\shahn\\OneDrive\\Desktop\\YUJCSR.Web.Portal\\YUJCSR.Web.Portal\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "Id": "C:\\Users\\shahn\\OneDrive\\Documents\\GitHub\\YUJCSR\\YUJCSR.Web.Portal\\YUJCSR.Web.Portal\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
     },
     {
-      "Id": "C:\\Users\\shahn\\OneDrive\\Desktop\\YUJCSR.Web.Portal\\YUJCSR.Web.Portal\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "Id": "C:\\Users\\shahn\\OneDrive\\Documents\\GitHub\\YUJCSR\\YUJCSR.Web.Portal\\YUJCSR.Web.Portal\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
     },
     {
-      "Id": "C:\\Users\\shahn\\OneDrive\\Desktop\\YUJCSR.Web.Portal\\YUJCSR.Web.Portal\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "Id": "C:\\Users\\shahn\\OneDrive\\Documents\\GitHub\\YUJCSR\\YUJCSR.Web.Portal\\YUJCSR.Web.Portal\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
     },
     {
-      "Id": "C:\\Users\\shahn\\OneDrive\\Desktop\\YUJCSR.Web.Portal\\YUJCSR.Web.Portal\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "Id": "C:\\Users\\shahn\\OneDrive\\Documents\\GitHub\\YUJCSR\\YUJCSR.Web.Portal\\YUJCSR.Web.Portal\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
     },
     {
-      "Id": "C:\\Users\\shahn\\OneDrive\\Desktop\\YUJCSR.Web.Portal\\YUJCSR.Web.Portal\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "Id": "C:\\Users\\shahn\\OneDrive\\Documents\\GitHub\\YUJCSR\\YUJCSR.Web.Portal\\YUJCSR.Web.Portal\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
     },
     {
-      "Id": "C:\\Users\\shahn\\OneDrive\\Desktop\\YUJCSR.Web.Portal\\YUJCSR.Web.Portal\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "Id": "C:\\Users\\shahn\\OneDrive\\Documents\\GitHub\\YUJCSR\\YUJCSR.Web.Portal\\YUJCSR.Web.Portal\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
     },
     {
-      "Id": "C:\\Users\\shahn\\OneDrive\\Desktop\\YUJCSR.Web.Portal\\YUJCSR.Web.Portal\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "Id": "C:\\Users\\shahn\\OneDrive\\Documents\\GitHub\\YUJCSR\\YUJCSR.Web.Portal\\YUJCSR.Web.Portal\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
     },
     {
-      "Id": "C:\\Users\\shahn\\OneDrive\\Desktop\\YUJCSR.Web.Portal\\YUJCSR.Web.Portal\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "Id": "C:\\Users\\shahn\\OneDrive\\Documents\\GitHub\\YUJCSR\\YUJCSR.Web.Portal\\YUJCSR.Web.Portal\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
     },
     {
-      "Id": "C:\\Users\\shahn\\OneDrive\\Desktop\\YUJCSR.Web.Portal\\YUJCSR.Web.Portal\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "Id": "C:\\Users\\shahn\\OneDrive\\Documents\\GitHub\\YUJCSR\\YUJCSR.Web.Portal\\YUJCSR.Web.Portal\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
     },
     {
-      "Id": "C:\\Users\\shahn\\OneDrive\\Desktop\\YUJCSR.Web.Portal\\YUJCSR.Web.Portal\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "Id": "C:\\Users\\shahn\\OneDrive\\Documents\\GitHub\\YUJCSR\\YUJCSR.Web.Portal\\YUJCSR.Web.Portal\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
     },
     {
-      "Id": "C:\\Users\\shahn\\OneDrive\\Desktop\\YUJCSR.Web.Portal\\YUJCSR.Web.Portal\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "Id": "C:\\Users\\shahn\\OneDrive\\Documents\\GitHub\\YUJCSR\\YUJCSR.Web.Portal\\YUJCSR.Web.Portal\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
     },
     {
-      "Id": "C:\\Users\\shahn\\OneDrive\\Desktop\\YUJCSR.Web.Portal\\YUJCSR.Web.Portal\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "Id": "C:\\Users\\shahn\\OneDrive\\Documents\\GitHub\\YUJCSR\\YUJCSR.Web.Portal\\YUJCSR.Web.Portal\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
     },
     {
-      "Id": "C:\\Users\\shahn\\OneDrive\\Desktop\\YUJCSR.Web.Portal\\YUJCSR.Web.Portal\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "Id": "C:\\Users\\shahn\\OneDrive\\Documents\\GitHub\\YUJCSR\\YUJCSR.Web.Portal\\YUJCSR.Web.Portal\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
     },
     {
-      "Id": "C:\\Users\\shahn\\OneDrive\\Desktop\\YUJCSR.Web.Portal\\YUJCSR.Web.Portal\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "Id": "C:\\Users\\shahn\\OneDrive\\Documents\\GitHub\\YUJCSR\\YUJCSR.Web.Portal\\YUJCSR.Web.Portal\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
     },
     {
-      "Id": "C:\\Users\\shahn\\OneDrive\\Desktop\\YUJCSR.Web.Portal\\YUJCSR.Web.Portal\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "Id": "C:\\Users\\shahn\\OneDrive\\Documents\\GitHub\\YUJCSR\\YUJCSR.Web.Portal\\YUJCSR.Web.Portal\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
     },
     {
-      "Id": "C:\\Users\\shahn\\OneDrive\\Desktop\\YUJCSR.Web.Portal\\YUJCSR.Web.Portal\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "Id": "C:\\Users\\shahn\\OneDrive\\Documents\\GitHub\\YUJCSR\\YUJCSR.Web.Portal\\YUJCSR.Web.Portal\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
     },
     {
-      "Id": "C:\\Users\\shahn\\OneDrive\\Desktop\\YUJCSR.Web.Portal\\YUJCSR.Web.Portal\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "Id": "C:\\Users\\shahn\\OneDrive\\Documents\\GitHub\\YUJCSR\\YUJCSR.Web.Portal\\YUJCSR.Web.Portal\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
     },
     {
-      "Id": "C:\\Users\\shahn\\OneDrive\\Desktop\\YUJCSR.Web.Portal\\YUJCSR.Web.Portal\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "Id": "C:\\Users\\shahn\\OneDrive\\Documents\\GitHub\\YUJCSR\\YUJCSR.Web.Portal\\YUJCSR.Web.Portal\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
     },
     {
-      "Id": "C:\\Users\\shahn\\OneDrive\\Desktop\\YUJCSR.Web.Portal\\YUJCSR.Web.Portal\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "Id": "C:\\Users\\shahn\\OneDrive\\Documents\\GitHub\\YUJCSR\\YUJCSR.Web.Portal\\YUJCSR.Web.Portal\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
       "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
     },
     {
-      "Id": "C:\\Users\\shahn\\OneDrive\\Desktop\\YUJCSR.Web.Portal\\YUJCSR.Web.Portal\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "Id": "C:\\Users\\shahn\\OneDrive\\Documents\\GitHub\\YUJCSR\\YUJCSR.Web.Portal\\YUJCSR.Web.Portal\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
     },
     {
-      "Id": "C:\\Users\\shahn\\OneDrive\\Desktop\\YUJCSR.Web.Portal\\YUJCSR.Web.Portal\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "Id": "C:\\Users\\shahn\\OneDrive\\Documents\\GitHub\\YUJCSR\\YUJCSR.Web.Portal\\YUJCSR.Web.Portal\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
     },
     {
-      "Id": "C:\\Users\\shahn\\OneDrive\\Desktop\\YUJCSR.Web.Portal\\YUJCSR.Web.Portal\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "Id": "C:\\Users\\shahn\\OneDrive\\Documents\\GitHub\\YUJCSR\\YUJCSR.Web.Portal\\YUJCSR.Web.Portal\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
     },
     {
-      "Id": "C:\\Users\\shahn\\OneDrive\\Desktop\\YUJCSR.Web.Portal\\YUJCSR.Web.Portal\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "Id": "C:\\Users\\shahn\\OneDrive\\Documents\\GitHub\\YUJCSR\\YUJCSR.Web.Portal\\YUJCSR.Web.Portal\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
     },
     {
-      "Id": "C:\\Users\\shahn\\OneDrive\\Desktop\\YUJCSR.Web.Portal\\YUJCSR.Web.Portal\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "Id": "C:\\Users\\shahn\\OneDrive\\Documents\\GitHub\\YUJCSR\\YUJCSR.Web.Portal\\YUJCSR.Web.Portal\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
     },
     {
-      "Id": "C:\\Users\\shahn\\OneDrive\\Desktop\\YUJCSR.Web.Portal\\YUJCSR.Web.Portal\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "Id": "C:\\Users\\shahn\\OneDrive\\Documents\\GitHub\\YUJCSR\\YUJCSR.Web.Portal\\YUJCSR.Web.Portal\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
     },
     {
-      "Id": "C:\\Users\\shahn\\OneDrive\\Desktop\\YUJCSR.Web.Portal\\YUJCSR.Web.Portal\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "Id": "C:\\Users\\shahn\\OneDrive\\Documents\\GitHub\\YUJCSR\\YUJCSR.Web.Portal\\YUJCSR.Web.Portal\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
     },
     {
-      "Id": "C:\\Users\\shahn\\OneDrive\\Desktop\\YUJCSR.Web.Portal\\YUJCSR.Web.Portal\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "Id": "C:\\Users\\shahn\\OneDrive\\Documents\\GitHub\\YUJCSR\\YUJCSR.Web.Portal\\YUJCSR.Web.Portal\\wwwroot\\lib\\jquery\\LICENSE.txt",
       "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
     },
     {
-      "Id": "C:\\Users\\shahn\\OneDrive\\Desktop\\YUJCSR.Web.Portal\\YUJCSR.Web.Portal\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "Id": "C:\\Users\\shahn\\OneDrive\\Documents\\GitHub\\YUJCSR\\YUJCSR.Web.Portal\\YUJCSR.Web.Portal\\wwwroot\\lib\\jquery\\dist\\jquery.js",
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
     },
     {
-      "Id": "C:\\Users\\shahn\\OneDrive\\Desktop\\YUJCSR.Web.Portal\\YUJCSR.Web.Portal\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "Id": "C:\\Users\\shahn\\OneDrive\\Documents\\GitHub\\YUJCSR\\YUJCSR.Web.Portal\\YUJCSR.Web.Portal\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
     },
     {
-      "Id": "C:\\Users\\shahn\\OneDrive\\Desktop\\YUJCSR.Web.Portal\\YUJCSR.Web.Portal\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "Id": "C:\\Users\\shahn\\OneDrive\\Documents\\GitHub\\YUJCSR\\YUJCSR.Web.Portal\\YUJCSR.Web.Portal\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
     },
     {
