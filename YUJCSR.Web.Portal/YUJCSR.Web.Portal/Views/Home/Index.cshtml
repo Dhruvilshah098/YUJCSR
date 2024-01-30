@@ -245,7 +245,7 @@
                 @foreach (var data in @projects)
                 {
                     <div class="col-sm-12 col-lg-4 custom-card-width">
-                        <div class="card card-vertical">
+                        <div class="card card-vertical"  data-item-id="@data.ProjectID"> 
                             <div class="card-image">
                                 <img src="./Assets/images/circle-of-love.png" alt="" />
                             </div>
@@ -340,7 +340,7 @@
                 @foreach (var data in @projects)
                 {
                     <div class="col-sm-12 col-lg-4 custom-card-width">
-                        <div class="card card-vertical">
+                        <div class="card card-vertical"  data-item-id="@data.ProjectID">
                             <div class="card-image">
                                 <img src="./Assets/images/circle-of-love.png" alt="" />
                             </div>
