@@ -102,7 +102,8 @@ main {
   }
 }
 .header-navbar .navbar-collapse .navbar-nav .nav-item .nav-link:hover {
-  border-bottom: 2px solid #000;
+  /*border-bottom: 2px solid #000;*/
+  color: #0271BC;
 }
 .header-navbar .action-container {
   display: flex;
@@ -170,11 +171,54 @@ main {
   height: 50px;
   background: #ffffff;
   height: 73px;
-  /*width: 967px;*/
+  width: 967px;
+  margin: auto;
   border-radius: 10px;
   box-shadow: 0px 0px 50px 0px rgba(0, 0, 0, 0.2);
+  padding-left: 15px;
+  padding-right: 15px;
+}
+.banner-section .info-search-wrapper .filter-wrapper {
   display: flex;
-  justify-content: space-between;
+}
+.banner-section .info-search-wrapper .filter-wrapper .filter-dropdown {
+  position: relative;
+}
+.banner-section .info-search-wrapper .filter-wrapper .filter-dropdown:not(:last-child)::after {
+  content: "";
+  position: absolute;
+  right: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  background: #D9D9D9;
+  width: 1px;
+  height: 50px;
+  margin-right: 17px;
+}
+.banner-section .info-search-wrapper .filter-wrapper .filter-dropdown .dropdown-label {
+  color: #727270;
+  font-family: Poppins;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  padding-left: 12px;
+}
+.banner-section .info-search-wrapper .filter-wrapper .filter-dropdown .dropdown button {
+  color: #000;
+  font-family: Poppins;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  padding: 0px 12px;
+}
+.banner-section .info-search-wrapper .filter-wrapper .filter-dropdown .dropdown button.dropdown-toggle::after {
+  display: none;
+}
+.banner-section .info-search-wrapper .filter-wrapper .filter-dropdown .dropdown button:hover {
+  border: 1px solid var(--bs-gray-500);
+  border-radius: 6px;
 }
 
 /* Number section */
@@ -603,6 +647,152 @@ main {
 }
 .project-details .accordion .accordion-item .accordion-button:focus {
   box-shadow: none;
+}
+
+/* About us page */
+.about-us-wrapper .mission-vision-wrapper .mission-wrapper {
+  background: #40B4E7;
+  padding: 20px;
+  height: 372px;
+  display: flex;
+}
+.about-us-wrapper .mission-vision-wrapper .mission-wrapper .mission-container {
+  width: 100%;
+  max-width: 345px;
+  margin: auto;
+}
+.about-us-wrapper .mission-vision-wrapper .mission-wrapper .mission-container .title {
+  color: #FFF;
+  font-size: 35px;
+  font-weight: 500;
+  line-height: normal;
+  margin-bottom: 1rem;
+}
+.about-us-wrapper .mission-vision-wrapper .mission-wrapper .mission-container .description {
+  color: #FFF;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: normal;
+}
+.about-us-wrapper .mission-vision-wrapper .vision-wrapper {
+  background: #F84848;
+  padding: 20px;
+  height: 372px;
+  display: flex;
+}
+.about-us-wrapper .mission-vision-wrapper .vision-wrapper .vision-container {
+  width: 100%;
+  max-width: 345px;
+  margin: auto;
+}
+.about-us-wrapper .mission-vision-wrapper .vision-wrapper .vision-container .title {
+  color: #FFF;
+  font-size: 35px;
+  font-weight: 500;
+  line-height: normal;
+  margin-bottom: 1rem;
+}
+.about-us-wrapper .mission-vision-wrapper .vision-wrapper .vision-container .description {
+  color: #FFF;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: normal;
+}
+.about-us-wrapper .mission-vision-wrapper .image-wrapper img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  max-height: 372px;
+  object-position: center;
+}
+
+.development-goals-section .goals-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 10px;
+}
+.development-goals-section .goals-wrapper img {
+  border-radius: 20px;
+}
+
+.team-wrapper .captiion {
+  color: #727270;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: normal;
+}
+.team-wrapper .member-card {
+  border-radius: 20px;
+  background: rgba(255, 255, 255, 0.5);
+  padding: 20px;
+  margin-bottom: 30px;
+}
+.team-wrapper .member-card .member-description-wrapper .member-name {
+  color: #000;
+  font-size: 40px;
+  font-weight: 500;
+  line-height: normal;
+}
+.team-wrapper .member-card .member-description-wrapper .member-designation {
+  color: #000;
+  font-size: 24px;
+  font-weight: 500;
+  line-height: normal;
+  margin-bottom: 20px;
+}
+.team-wrapper .member-card .member-description-wrapper .member-description {
+  color: #000;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: normal;
+}
+.team-wrapper .member-card .sub-member-description-wrapper .member-name {
+  color: #000;
+  font-size: 30px;
+  font-weight: 500;
+  line-height: normal;
+}
+.team-wrapper .member-card .sub-member-description-wrapper .member-designation {
+  color: #000;
+  font-size: 24px;
+  font-weight: 500;
+  line-height: normal;
+}
+.team-wrapper .member-card .sub-member-description-wrapper .member-description {
+  color: #000;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: normal;
+}
+
+/* contact us page */
+.address-wrapper {
+  background: #ffffff;
+}
+.address-wrapper .address-label {
+  font-weight: 600;
+  font-size: 24px;
+  margin-bottom: 1rem;
+}
+.address-wrapper .address {
+  margin-bottom: 1rem;
+}
+
+.contact-wrapper .form-group {
+  margin-bottom: 1.5rem;
+}
+.contact-wrapper .form-group label {
+  font-weight: 600;
+}
+.contact-wrapper .form-group .form-control {
+  border: 0px;
+}
+.contact-wrapper .form-group .btn.btn-primary {
+  background-color: #F74747;
+  color: #ffffff;
+  border-color: #F74747;
+  border-radius: 20px;
 }
 
 /* Vertical Cards */
