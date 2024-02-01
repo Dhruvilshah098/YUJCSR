@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("YUJCSR.Web.Portal")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Release")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+a138a568c6df4f5557e5b9e77f4487a961cc818b")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+262281933cb1a09473d79db64824d945b8309e14")]
 [assembly: System.Reflection.AssemblyProductAttribute("YUJCSR.Web.Portal")]
 [assembly: System.Reflection.AssemblyTitleAttribute("YUJCSR.Web.Portal")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
