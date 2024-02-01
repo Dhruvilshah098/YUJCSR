@@ -396,7 +396,7 @@ main {
 
     .row {
         @media(max-width: 991px) {
-            gap: 1.3rem;
+            row-gap: 1.3rem;
         }
 
         .col-lg-4 {
@@ -493,7 +493,7 @@ main {
 
     .row {
         @media(max-width: 991px) {
-            gap: 1.3rem;
+            row-gap: 1.3rem;
         }
 
         .col-lg-4 {

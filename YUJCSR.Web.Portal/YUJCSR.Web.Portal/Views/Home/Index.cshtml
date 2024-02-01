@@ -17,7 +17,7 @@
                 Facilitating <span>Connections Between CSOs & Companies</span> For Sustainable change
             </div>
 
-            <div class="info-search-wrapper">
+            @* <div class="info-search-wrapper">
                 <div class="row h-100 align-items-center">
                     <div class="col-md-8">
                         <div class="filter-wrapper row">
@@ -82,7 +82,7 @@
                         </div>
                     </div>
                 </div>                           
-            </div>
+            </div> *@
         </div>
     </div>
 
@@ -244,7 +244,7 @@
             <div class="row justify-content-center">
                 @foreach (var data in @projects)
                 {
-                    <div class="col-sm-12 col-lg-4 custom-card-width">
+                    <div class="col-sm-12 col-md-6 col-lg-4 custom-card-width">
                         <div class="card card-vertical"  data-item-id="@data.ProjectID"> 
                             <div class="card-image">
                                 <img src="./Assets/images/circle-of-love.png" alt="" />
@@ -313,7 +313,7 @@
             </div>
 
             <div class="action-btn-wrapper">
-                <a class="view-all-btn">View All <span> <img src="./Assets/icons/right-arrow.svg" alt="" /> </span></a>
+                <a href="/project" class="view-all-btn">View All <span> <img src="./Assets/icons/right-arrow.svg" alt="" /> </span></a>
             </div>
         </div>
     </div>
@@ -339,7 +339,7 @@
             <div class="row justify-content-center">
                 @foreach (var data in @projects)
                 {
-                    <div class="col-sm-12 col-lg-4 custom-card-width">
+                    <div class="col-sm-12 col-md-6 col-lg-4 custom-card-width">
                         <div class="card card-vertical"  data-item-id="@data.ProjectID">
                             <div class="card-image">
                                 <img src="./Assets/images/circle-of-love.png" alt="" />
@@ -406,7 +406,7 @@
             </div>
 
             <div class="action-btn-wrapper">
-                <a class="view-all-btn">View All <span> <img src="./Assets/icons/right-arrow.svg" alt="" /> </span> </a>
+                <a href="/project" class="view-all-btn">View All <span> <img src="./Assets/icons/right-arrow.svg" alt="" /> </span> </a>
             </div>
         </div>
     </div>

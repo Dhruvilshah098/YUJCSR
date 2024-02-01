@@ -406,7 +406,7 @@ main {
 }
 @media (max-width: 991px) {
   .project-section .row {
-    gap: 1.3rem;
+    row-gap: 1.3rem;
   }
 }
 .project-section .row .col-lg-4 {
@@ -496,7 +496,7 @@ main {
 }
 @media (max-width: 991px) {
   .cso-project-section .row {
-    gap: 1.3rem;
+    row-gap: 1.3rem;
   }
 }
 .cso-project-section .row .col-lg-4 {
@@ -847,4 +847,66 @@ main {
 }
 .card-vertical .card-details .extra-details {
   margin-bottom: 9px;
+}
+
+@media (max-width: 991px) {
+  .about-us-wrapper .mission-vision-wrapper .row > div:first-child {
+    order: 2;
+  }
+  .about-us-wrapper .mission-vision-wrapper .row > div:nth-child(2) {
+    order: 1;
+  }
+  .about-us-wrapper .mission-vision-wrapper .row > div:nth-child(3) {
+    order: 3;
+  }
+  .about-us-wrapper .mission-vision-wrapper .row > div:last-child {
+    order: 4;
+  }
+  .about-us-wrapper .mission-vision-wrapper .mission-wrapper, .about-us-wrapper .mission-vision-wrapper .vision-wrapper {
+    padding: 30px;
+  }
+  .about-us-wrapper .development-goals-section h2 {
+    width: 100% !important;
+  }
+  .about-us-wrapper .development-goals-section .goals-wrapper img {
+    max-width: 168px;
+  }
+}
+@media (max-width: 430px) {
+  .about-us-wrapper .mission-vision-wrapper .mission-wrapper .mission-container .title, .about-us-wrapper .mission-vision-wrapper .mission-wrapper .vision-container .title, .about-us-wrapper .mission-vision-wrapper .vision-wrapper .mission-container .title, .about-us-wrapper .mission-vision-wrapper .vision-wrapper .vision-container .title {
+    font-size: 26px;
+  }
+  .about-us-wrapper .development-goals-section h2 {
+    width: 100% !important;
+  }
+  h2 {
+    font-size: 26px;
+  }
+}
+@media (max-width: 575px) {
+  .team-wrapper .member-card .member-image-wrapper {
+    text-align: center;
+  }
+  .team-wrapper .member-card .member-image-wrapper img {
+    max-width: 50%;
+  }
+  .team-wrapper .member-card .member-description-wrapper, .team-wrapper .member-card .sub-member-description-wrapper {
+    text-align: center;
+  }
+  .team-wrapper .member-card .member-description-wrapper .member-name, .team-wrapper .member-card .sub-member-description-wrapper .member-name {
+    font-size: 28px;
+  }
+}
+@media (max-width: 768px) {
+  .project-list .container > .row {
+    justify-content: center;
+  }
+  .custom-card-width {
+    max-width: 100%;
+  }
+}
+@media (max-width: 424px) {
+  .about-us-wrapper .development-goals-section .goals-wrapper img {
+    max-width: 144px;
+  }
 }
