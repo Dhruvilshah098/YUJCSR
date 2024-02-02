@@ -861,3 +861,16 @@ main {
         }
     }
 }
+
+#login, #register {
+    .form-check-input {
+        &:checked {
+            background-color: #F74747;
+            border-color: #F74747;
+        }
+
+        &:focus {
+            box-shadow: 0 0 0 0.25rem rgb(247 71 71 / 25%);
+        }
+    }
+}

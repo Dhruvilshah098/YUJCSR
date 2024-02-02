@@ -795,6 +795,14 @@ main {
   border-radius: 20px;
 }
 
+#login .form-check-input:checked, #register .form-check-input:checked {
+  background-color: #F74747;
+  border-color: #F74747;
+}
+#login .form-check-input:focus, #register .form-check-input:focus {
+  box-shadow: 0 0 0 0.25rem rgba(247, 71, 71, 0.25);
+}
+
 /* Vertical Cards */
 .card-vertical {
   border-radius: 30px;
