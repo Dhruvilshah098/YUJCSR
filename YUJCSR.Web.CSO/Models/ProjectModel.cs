@@ -1,5 +1,11 @@
 ﻿namespace YUJCSR.Web.Project.Models
 {
+    public enum ApiMethod
+    {
+        ProjectCreate,
+        ProjectUpdate
+    }
+
     public class ProjectModel
 	{
         public string? CSOID { get; set; }
