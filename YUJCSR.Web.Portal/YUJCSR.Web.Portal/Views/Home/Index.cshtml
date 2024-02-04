@@ -12,16 +12,77 @@
     @* Banner Section *@
 
     <div class="banner-section">
-        <div class="banner-title">
-            Facilitating <span>Connections Between CSOs & Companies</span> For Sustainable change
-        </div>
-
-        <div class="info-search-wrapper">
-            <div class="filter-wrapper">
+        <div class="container">
+            <div class="banner-title">
+                Facilitating <span>Connections Between CSOs & Companies</span> For Sustainable change
             </div>
 
-            <div class="filter-actions">
-            </div>
+            @* <div class="info-search-wrapper">
+                <div class="row h-100 align-items-center">
+                    <div class="col-md-8">
+                        <div class="filter-wrapper row">
+                            <div class="filter-dropdown col">
+                                <h5 class="dropdown-label">I'm a</h5>
+                                <div class="dropdown">
+                                    <button class="btn dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                        CSO
+                                    </button>
+                                    <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                                        <a class="dropdown-item" href="#">Action</a>
+                                        <a class="dropdown-item" href="#">Another action</a>
+                                        <a class="dropdown-item" href="#">Something else here</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="filter-dropdown col">
+                                <h5 class="dropdown-label">Located in</h5>
+                                <div class="dropdown">
+                                    <button class="btn dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                        India
+                                    </button>
+                                    <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                                        <a class="dropdown-item" href="#">Action</a>
+                                        <a class="dropdown-item" href="#">Another action</a>
+                                        <a class="dropdown-item" href="#">Something else here</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="filter-dropdown col">
+                                <h5 class="dropdown-label">Want a</h5>
+
+                                <div class="dropdown">
+                                    <button class="btn dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                        Volunteer
+                                    </button>
+                                    <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                                        <a class="dropdown-item" href="#">Action</a>
+                                        <a class="dropdown-item" href="#">Another action</a>
+                                        <a class="dropdown-item" href="#">Something else here</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="filter-dropdown col">
+                                <h5 class="dropdown-label">Fund</h5>
+
+                                <div class="dropdown">
+                                    <button class="btn dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                        ₹ 50000
+                                    </button>
+                                    <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                                        <a class="dropdown-item" href="#">Action</a>
+                                        <a class="dropdown-item" href="#">Another action</a>
+                                        <a class="dropdown-item" href="#">Something else here</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="filter-actions"> 
+                        </div>
+                    </div>
+                </div>                           
+            </div> *@
         </div>
     </div>
 
@@ -183,15 +244,15 @@
             <div class="row justify-content-center">
                 @foreach (var data in @projects)
                 {
-                    <div class="col-sm-12 col-lg-4 custom-card-width">
-                        <div class="card card-vertical">
+                    <div class="col-sm-12 col-md-6 col-lg-4 custom-card-width">
+                        <div class="card card-vertical"  data-item-id="@data.ProjectID"> 
                             <div class="card-image">
                                 <img src="./Assets/images/circle-of-love.png" alt="" />
                             </div>
                             <div class="card-details">
                                 <h3 class="card-title">
-                                    Circle of Love - Employee Volunteering
-                                    @data.Location
+                                    @* Circle of Love - Employee Volunteering *@
+                                    @data.Title
                                 </h3>
 
                                 <h5 class="caption">
@@ -252,7 +313,7 @@
             </div>
 
             <div class="action-btn-wrapper">
-                <a class="view-all-btn">View All <span> <img src="./Assets/icons/right-arrow.svg" alt="" /> </span></a>
+                <a href="/project" class="view-all-btn">View All <span> <img src="./Assets/icons/right-arrow.svg" alt="" /> </span></a>
             </div>
         </div>
     </div>
@@ -276,28 +337,31 @@
         <div class="container">
             @* Cards *@
             <div class="row justify-content-center">
-                <div class="col-sm-12 col-lg-4 custom-card-width">
-                    <div class="card card-vertical">
-                        <div class="card-image">
-                            <img src="./Assets/images/circle-of-love.png" alt="" />
-                        </div>
-                        <div class="card-details">
-                            <h3 class="card-title">
-                                Circle of Love - Employee Volunteering
-                            </h3>
-
-                            <div class="extra-details">
-                                <h5>📍 Maharastra, Gujrat, Anywhere</h5>
-                                <h5> &nbsp₹ (INR) 1.0 Cr - 5.0 Cr</h5>
+                @foreach (var data in @projects)
+                {
+                    <div class="col-sm-12 col-md-6 col-lg-4 custom-card-width">
+                        <div class="card card-vertical"  data-item-id="@data.ProjectID">
+                            <div class="card-image">
+                                <img src="./Assets/images/circle-of-love.png" alt="" />
                             </div>
+                            <div class="card-details">
+                                <h3 class="card-title">
+                                    @data.Title
+                                </h3>
 
-                            <h5 class="caption">
-                                Paramhansa Yogananda Public Charitable Trust
-                            </h5>
+                                <div class="extra-details">
+                                    <h5>📍 @data.Location</h5>
+                                    <h5> &nbsp₹ &nbsp @data.TotalBudget</h5>
+                                </div>
+
+                                <h5 class="caption">
+                                    Paramhansa Yogananda Public Charitable Trust
+                                </h5>
+                            </div>
                         </div>
                     </div>
-                </div>
-                <div class="col-sm-12 col-lg-4 custom-card-width">
+                }
+                @* <div class="col-sm-12 col-lg-4 custom-card-width">
                     <div class="card card-vertical">
                         <div class="card-image">
                             <img src="./Assets/images/Code-For-Change.png" alt="" />
@@ -338,11 +402,11 @@
                             </h5>
                         </div>
                     </div>
-                </div>
+                </div> *@
             </div>
 
             <div class="action-btn-wrapper">
-                <a class="view-all-btn">View All <span> <img src="./Assets/icons/right-arrow.svg" alt="" /> </span> </a>
+                <a href="/project" class="view-all-btn">View All <span> <img src="./Assets/icons/right-arrow.svg" alt="" /> </span> </a>
             </div>
         </div>
     </div>
@@ -369,3 +433,25 @@
         </div>
     </div>
 </div>
+
+@section scripts {
+    <script>
+        $(document).ready(function () {
+            $('.card').click(function () {
+                var itemId = $(this).data('item-id');
+
+                    $.ajax({
+                        type: 'GET',
+                        url: '@Url.Action("Details", "Project")',
+                        data: {id:itemId},
+                        dataType: 'json',
+                        success: function (data) { },
+                        error: function () {
+                            alert("Error loading data.");
+                        }
+                    });
+                window.location.href = '@Url.Action("Details", "Project", new { id = "__itemId__" })'.replace('__itemId__', itemId);            
+            });
+        });
+    </script>
+}

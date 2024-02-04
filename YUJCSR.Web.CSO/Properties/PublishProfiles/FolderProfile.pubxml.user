@@ -4,7 +4,8 @@ https://go.microsoft.com/fwlink/?LinkID=208121.
 -->
 <Project>
   <PropertyGroup>
-    <_PublishTargetUrl>D:\AppsPublish\YUJCSR.Web.CSO</_PublishTargetUrl>
-    <History>True|2024-01-24T16:53:54.5634325Z;</History>
+    <_PublishTargetUrl>C:\Users\shahn\OneDrive\Desktop\Delete later\CSO_Publish</_PublishTargetUrl>
+    <History>True|2024-01-29T18:57:06.3518872Z;False|2024-01-30T00:24:34.9132646+05:30;True|2024-01-24T22:23:54.5634325+05:30;</History>
+    <LastFailureDetails />
   </PropertyGroup>
 </Project>

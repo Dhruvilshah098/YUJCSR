@@ -28,7 +28,7 @@
                         </li>
 
                         <li class="nav-item">
-                            <a class="nav-link" asp-area="" asp-controller="" asp-action="">About us</a>
+                            <a class="nav-link" asp-area="" asp-controller="Home" asp-action="AboutUs">About us</a>
                         </li>
 
                         <li class="nav-item">
@@ -48,14 +48,64 @@
                         </li>
 
                         <li class="nav-item">
-                            <a class="nav-link" asp-area="" asp-controller="" asp-action="">Contact us</a>
+                            <a class="nav-link" asp-area="" asp-controller="Home" asp-action="ContactUs">Contact us</a>
                         </li>
                     </ul>
 
                     <div class="action-container">
-                        <a class="btn btn-outline-primary" asp-area="" asp-controller="User"
-                            asp-action="Login">Login</a>
-                        <a class="btn btn-primary" asp-area="" asp-controller="User" asp-action="Index">Register</a>
+                        <a class="btn btn-outline-primary" data-toggle="modal" data-target="#login">Login</a>
+                        <a class="btn btn-primary" data-toggle="modal" data-target="#register">Register</a>
+                    </div>
+
+                    <!-- Modal -->
+                    <div class="modal fade" id="login" tabindex="-1" role="dialog" aria-labelledby="loginTitle" aria-hidden="true">
+                        <div class="modal-dialog modal-dialog-centered" role="document">
+                            <div class="modal-content">
+                                <div class="modal-body">
+                                    <h3>Login as</h3>
+
+                                    <div class="d-flex">
+                                        <div class="form-check pl-0">
+                                            <input class="form-check-input ml-0" type="radio" name="flexRadioDefault" id="company" onclick="redirectToWebsite('https://example.com')">
+                                            <label class="form-check-label pl-4" for="company">
+                                                company
+                                            </label>
+                                        </div>
+                                        <div class="form-check">
+                                            <input class="form-check-input ml-0" type="radio" name="flexRadioDefault" id="cso" onclick="redirectToWebsite('https://example1.com')">
+                                            <label class="form-check-label pl-4" for="cso">
+                                                CSO
+                                            </label>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="modal fade" id="register" tabindex="-1" role="dialog" aria-labelledby="registerTitle" aria-hidden="true">
+                        <div class="modal-dialog modal-dialog-centered" role="document">
+                            <div class="modal-content">
+                                <div class="modal-body">
+                                    <h3>Register as</h3>
+
+                                    <div class="d-flex">
+                                        <div class="form-check pl-0">
+                                            <input class="form-check-input ml-0" type="radio" name="flexRadioDefault" id="company" onclick="redirectToWebsite('https://example.com')">
+                                            <label class="form-check-label pl-4" for="company">
+                                                company
+                                            </label>
+                                        </div>
+                                        <div class="form-check">
+                                            <input class="form-check-input ml-0" type="radio" name="flexRadioDefault" id="cso" onclick="redirectToWebsite('https://example1.com')">
+                                            <label class="form-check-label pl-4" for="cso">
+                                                CSO
+                                            </label>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -147,6 +197,12 @@
     <script src="~/lib/jquery/dist/jquery.min.js"></script>
     <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
     <script src="~/js/site.js" asp-append-version="true"></script>
+
+    <script>
+        function redirectToWebsite(url) {
+            window.location.href = url;
+        }
+    </script>
     @await RenderSectionAsync("Scripts", required: false)
 </body>
 

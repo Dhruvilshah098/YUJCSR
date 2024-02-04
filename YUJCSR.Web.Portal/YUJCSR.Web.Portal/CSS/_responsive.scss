@@ -1,0 +1,111 @@
+﻿$tab-lg : "max-width: 991px";
+$tab-sm: "max-width: 575px";
+$tab: "max-width: 768px";
+$mobile: "max-width: 430px";
+
+@media ($tab-lg) {
+    .about-us-wrapper {
+        .mission-vision-wrapper {
+            .row {
+                > div {
+                    &:first-child {
+                        order: 2;
+                    }
+    
+                    &:nth-child(2) {
+                        order: 1;
+                    }
+    
+                    &:nth-child(3) {
+                        order: 3;
+                    }
+    
+                    &:last-child {
+                        order: 4;
+                    }
+                }
+            }
+
+            .mission-wrapper, .vision-wrapper {
+                padding: 30px;
+            }
+        }
+
+        .development-goals-section {
+            h2 {
+                width: 100% !important;
+            }
+
+            .goals-wrapper img {
+                max-width: 168px;
+            }
+        }
+    }
+}
+
+@media ($mobile) {
+    .about-us-wrapper {
+        .mission-vision-wrapper {
+            .mission-wrapper, .vision-wrapper {
+                .mission-container, .vision-container {
+                    .title {
+                        font-size: 26px;
+                    }
+                }
+            }
+        }
+
+        .development-goals-section {
+            h2 {
+                width: 100% !important;
+            }
+        }
+    }
+
+    h2 {
+        font-size: 26px;
+    }
+}
+
+@media($tab-sm) {
+    .team-wrapper {
+        .member-card {
+            .member-image-wrapper {
+                text-align: center;
+
+                img {
+                    max-width: 50%;
+                }
+            }
+
+            .member-description-wrapper, .sub-member-description-wrapper {
+                text-align: center;
+
+                .member-name {
+                    font-size: 28px;
+                }
+            }
+        }
+    }
+}
+
+@media ($tab) {
+    .project-list {
+        .container {
+            > .row {
+                justify-content: center;
+            }
+        }
+    }
+
+    .custom-card-width {
+        max-width: 100%;
+    }
+}
+
+@media (max-width: 424px) {
+    .about-us-wrapper .development-goals-section .goals-wrapper img {
+        max-width: 144px;
+    }
+}
+
